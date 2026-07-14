@@ -1,0 +1,1219 @@
+Powertrain,Region,Year,Registrations,Share
+BEV,Austria,2020,15986,6.4
+BEV,Austria,2021,33380,13.9
+BEV,Austria,2022,34179,15.9
+BEV,Austria,2023,47621,19.9
+BEV,Austria,2024,44622,17.6
+BEV,Austria,2025,60651,21.3
+BEV,Austria,2026,17347,22.5
+BEV,Belgium,2020,14994,3.5
+BEV,Belgium,2021,22677,5.9
+BEV,Belgium,2022,37638,10.3
+BEV,Belgium,2023,93285,19.6
+BEV,Belgium,2024,127703,28.5
+BEV,Belgium,2025,143849,34.7
+BEV,Belgium,2026,39469,34.7
+BEV,Bulgaria,2020,139,0.6
+BEV,Bulgaria,2021,433,1.8
+BEV,Bulgaria,2022,1002,3.5
+BEV,Bulgaria,2023,1816,4.8
+BEV,Bulgaria,2024,1665,3.9
+BEV,Bulgaria,2025,2420,4.9
+BEV,Bulgaria,2026,747,6.5
+BEV,Croatia,2020,533,1.5
+BEV,Croatia,2021,1351,2.9
+BEV,Croatia,2022,1369,3.1
+BEV,Croatia,2023,1637,2.8
+BEV,Croatia,2024,1793,2.8
+BEV,Croatia,2025,1266,1.8
+BEV,Croatia,2026,780,4.6
+BEV,Cyprus,2020,42,0.4
+BEV,Cyprus,2021,84,0.8
+BEV,Cyprus,2022,403,3.5
+BEV,Cyprus,2023,788,5.3
+BEV,Cyprus,2024,1193,7.4
+BEV,Cyprus,2025,1474,10.1
+BEV,Cyprus,2026,425,11.6
+BEV,Czech Rep.,2020,3284,1.6
+BEV,Czech Rep.,2021,2655,1.3
+BEV,Czech Rep.,2022,3895,2.0
+BEV,Czech Rep.,2023,6700,3.0
+BEV,Czech Rep.,2024,10920,4.7
+BEV,Czech Rep.,2025,13806,5.6
+BEV,Czech Rep.,2026,3439,5.7
+BEV,Denmark,2020,14275,7.2
+BEV,Denmark,2021,24998,13.5
+BEV,Denmark,2022,30855,20.8
+BEV,Denmark,2023,62759,36.3
+BEV,Denmark,2024,89199,51.5
+BEV,Denmark,2025,126542,68.5
+BEV,Denmark,2026,34970,80.0
+BEV,Estonia,2020,342,1.8
+BEV,Estonia,2021,484,2.2
+BEV,Estonia,2022,731,3.4
+BEV,Estonia,2023,1445,6.3
+BEV,Estonia,2024,1320,5.2
+BEV,Estonia,2025,868,6.6
+BEV,Estonia,2026,260,6.1
+BEV,European Union,2020,538734,5.4
+BEV,European Union,2021,877985,9.1
+BEV,European Union,2022,1123778,12.1
+BEV,European Union,2023,1538621,14.6
+BEV,European Union,2024,1447934,13.6
+BEV,European Union,2025,1880370,17.4
+BEV,European Union,2026,546937,19.4
+BEV,Finland,2020,4244,4.4
+BEV,Finland,2021,10153,10.3
+BEV,Finland,2022,14530,17.8
+BEV,Finland,2023,29535,33.8
+BEV,Finland,2024,21868,29.5
+BEV,Finland,2025,26745,37.2
+BEV,Finland,2026,8063,46.9
+BEV,France,2020,111127,6.7
+BEV,France,2021,162167,9.8
+BEV,France,2022,203122,13.3
+BEV,France,2023,298219,16.8
+BEV,France,2024,290614,16.9
+BEV,France,2025,326922,20.0
+BEV,France,2026,112083,27.9
+BEV,Germany,2020,194471,6.7
+BEV,Germany,2021,356425,13.6
+BEV,Germany,2022,471394,17.8
+BEV,Germany,2023,524219,18.4
+BEV,Germany,2024,380609,13.5
+BEV,Germany,2025,545142,19.1
+BEV,Germany,2026,159630,22.8
+BEV,Greece,2020,679,0.8
+BEV,Greece,2021,2176,2.2
+BEV,Greece,2022,2827,2.7
+BEV,Greece,2023,6379,4.7
+BEV,Greece,2024,8707,6.4
+BEV,Greece,2025,8892,6.2
+BEV,Greece,2026,2294,6.6
+BEV,Hungary,2020,3046,2.4
+BEV,Hungary,2021,4312,3.5
+BEV,Hungary,2022,4710,4.2
+BEV,Hungary,2023,5799,5.4
+BEV,Hungary,2024,8565,7.0
+BEV,Hungary,2025,11002,8.5
+BEV,Hungary,2026,3192,8.8
+BEV,Ireland,2020,4013,4.5
+BEV,Ireland,2021,8646,8.2
+BEV,Ireland,2022,15678,14.9
+BEV,Ireland,2023,22789,18.6
+BEV,Ireland,2024,17459,14.4
+BEV,Ireland,2025,23601,18.9
+BEV,Ireland,2026,13982,21.5
+BEV,Italy,2020,32502,2.4
+BEV,Italy,2021,67284,4.6
+BEV,Italy,2022,49179,3.7
+BEV,Italy,2023,66265,4.2
+BEV,Italy,2024,65620,4.2
+BEV,Italy,2025,94624,6.2
+BEV,Italy,2026,38084,7.9
+BEV,Latvia,2020,307,2.3
+BEV,Latvia,2021,414,2.9
+BEV,Latvia,2022,1068,6.4
+BEV,Latvia,2023,1692,8.9
+BEV,Latvia,2024,1270,7.3
+BEV,Latvia,2025,1602,7.1
+BEV,Latvia,2026,323,6.5
+BEV,Lithuania,2020,453,1.1
+BEV,Lithuania,2021,1158,3.7
+BEV,Lithuania,2022,1358,5.3
+BEV,Lithuania,2023,2060,7.5
+BEV,Lithuania,2024,1779,5.9
+BEV,Lithuania,2025,3150,7.5
+BEV,Lithuania,2026,758,7.9
+BEV,Luxembourg,2020,2473,5.5
+BEV,Luxembourg,2021,4650,10.5
+BEV,Luxembourg,2022,6393,15.2
+BEV,Luxembourg,2023,11052,22.5
+BEV,Luxembourg,2024,12778,25.1
+BEV,Luxembourg,2025,12663,26.9
+BEV,Luxembourg,2026,3381,27.0
+BEV,Netherlands,2020,73005,20.5
+BEV,Netherlands,2021,63780,19.8
+BEV,Netherlands,2022,73394,23.5
+BEV,Netherlands,2023,113981,30.8
+BEV,Netherlands,2024,132166,34.7
+BEV,Netherlands,2025,156139,40.2
+BEV,Netherlands,2026,24869,30.5
+BEV,Norway,2020,76804,54.3
+BEV,Norway,2021,113751,64.5
+BEV,Norway,2022,138287,79.3
+BEV,Norway,2023,104587,82.4
+BEV,Norway,2024,114396,88.9
+BEV,Norway,2025,172231,95.9
+BEV,Norway,2026,26617,97.9
+BEV,Poland,2020,3679,0.9
+BEV,Poland,2021,7166,1.6
+BEV,Poland,2022,11334,2.7
+BEV,Poland,2023,17078,3.6
+BEV,Poland,2024,16564,3.0
+BEV,Poland,2025,43311,7.2
+BEV,Poland,2026,8841,5.8
+BEV,Portugal,2020,7830,5.4
+BEV,Portugal,2021,13260,9.0
+BEV,Portugal,2022,17817,11.4
+BEV,Portugal,2023,36390,18.2
+BEV,Portugal,2024,41757,19.9
+BEV,Portugal,2025,52256,23.2
+BEV,Portugal,2026,15136,23.6
+BEV,Romania,2020,2845,2.2
+BEV,Romania,2021,6342,5.2
+BEV,Romania,2022,11638,9.0
+BEV,Romania,2023,15368,10.6
+BEV,Romania,2024,9795,7.1
+BEV,Romania,2025,8849,5.6
+BEV,Romania,2026,2587,9.5
+BEV,Slovakia,2020,918,1.2
+BEV,Slovakia,2021,1105,1.5
+BEV,Slovakia,2022,1391,1.8
+BEV,Slovakia,2023,2346,2.7
+BEV,Slovakia,2024,2227,2.4
+BEV,Slovakia,2025,4377,4.7
+BEV,Slovakia,2026,1014,5.1
+BEV,Slovenia,2020,1647,3.1
+BEV,Slovenia,2021,1723,3.2
+BEV,Slovenia,2022,2293,4.9
+BEV,Slovenia,2023,4330,8.9
+BEV,Slovenia,2024,3148,5.9
+BEV,Slovenia,2025,6419,11.2
+BEV,Slovenia,2026,2297,13.9
+BEV,Spain,2020,17927,2.1
+BEV,Spain,2021,23689,2.8
+BEV,Spain,2022,30545,3.8
+BEV,Spain,2023,51612,5.4
+BEV,Spain,2024,57374,5.6
+BEV,Spain,2025,101627,8.8
+BEV,Spain,2026,27226,9.1
+BEV,Sweden,2020,27973,9.6
+BEV,Sweden,2021,57473,19.1
+BEV,Sweden,2022,95035,33.0
+BEV,Sweden,2023,112208,38.7
+BEV,Sweden,2024,94333,35.0
+BEV,Sweden,2025,99723,36.5
+BEV,Sweden,2026,25235,40.7
+BEV,United Kingdom,2020,108205,6.6
+BEV,United Kingdom,2021,190727,11.6
+BEV,United Kingdom,2022,267203,16.6
+BEV,United Kingdom,2023,314684,16.5
+BEV,United Kingdom,2024,381970,18.3
+BEV,United Kingdom,2025,473348,23.4
+BEV,United Kingdom,2026,137614,22.4
+PHEV,Austria,2020,7641,3.1
+PHEV,Austria,2021,14626,6.1
+PHEV,Austria,2022,13268,6.2
+PHEV,Austria,2023,16956,7.1
+PHEV,Austria,2024,16919,6.7
+PHEV,Austria,2025,28820,10.1
+PHEV,Austria,2026,8054,10.4
+PHEV,Belgium,2020,31694,7.3
+PHEV,Belgium,2021,47753,12.5
+PHEV,Belgium,2022,59281,16.2
+PHEV,Belgium,2023,100308,21.0
+PHEV,Belgium,2024,67034,15.0
+PHEV,Belgium,2025,39584,9.5
+PHEV,Belgium,2026,6610,5.8
+PHEV,Bulgaria,2020,41,0.2
+PHEV,Bulgaria,2021,117,0.5
+PHEV,Bulgaria,2022,141,0.5
+PHEV,Bulgaria,2023,355,0.9
+PHEV,Bulgaria,2024,467,1.1
+PHEV,Bulgaria,2025,566,1.1
+PHEV,Bulgaria,2026,214,1.9
+PHEV,Croatia,2020,143,0.4
+PHEV,Croatia,2021,399,0.9
+PHEV,Croatia,2022,836,1.9
+PHEV,Croatia,2023,992,1.7
+PHEV,Croatia,2024,1405,2.2
+PHEV,Croatia,2025,2529,3.6
+PHEV,Croatia,2026,1094,6.5
+PHEV,Cyprus,2020,83,0.8
+PHEV,Cyprus,2021,98,0.9
+PHEV,Cyprus,2022,228,2.0
+PHEV,Cyprus,2023,511,3.5
+PHEV,Cyprus,2024,664,4.1
+PHEV,Cyprus,2025,773,5.3
+PHEV,Cyprus,2026,191,5.2
+PHEV,Czech Rep.,2020,1981,1.0
+PHEV,Czech Rep.,2021,3736,1.8
+PHEV,Czech Rep.,2022,3560,1.9
+PHEV,Czech Rep.,2023,5251,2.4
+PHEV,Czech Rep.,2024,4826,2.1
+PHEV,Czech Rep.,2025,11033,4.4
+PHEV,Czech Rep.,2026,2783,4.6
+PHEV,Denmark,2020,18243,9.2
+PHEV,Denmark,2021,40476,21.8
+PHEV,Denmark,2022,26442,17.8
+PHEV,Denmark,2023,17283,10.0
+PHEV,Denmark,2024,7092,4.1
+PHEV,Denmark,2025,4692,2.5
+PHEV,Denmark,2026,411,0.9
+PHEV,Estonia,2020,75,0.4
+PHEV,Estonia,2021,239,1.1
+PHEV,Estonia,2022,426,2.0
+PHEV,Estonia,2023,560,2.5
+PHEV,Estonia,2024,1268,5.0
+PHEV,Estonia,2025,1403,10.7
+PHEV,Estonia,2026,403,9.5
+PHEV,European Union,2020,507917,5.1
+PHEV,European Union,2021,864103,8.9
+PHEV,European Union,2022,874182,9.4
+PHEV,European Union,2023,813480,7.7
+PHEV,European Union,2024,758944,7.1
+PHEV,European Union,2025,1015887,9.4
+PHEV,European Union,2026,268344,9.5
+PHEV,Finland,2020,13231,13.7
+PHEV,Finland,2021,20140,20.5
+PHEV,Finland,2022,16171,19.8
+PHEV,Finland,2023,18087,20.7
+PHEV,Finland,2024,14863,20.1
+PHEV,Finland,2025,14516,20.2
+PHEV,Finland,2026,2482,14.4
+PHEV,France,2020,74592,4.5
+PHEV,France,2021,141001,8.5
+PHEV,France,2022,126547,8.3
+PHEV,France,2023,162950,9.2
+PHEV,France,2024,146392,8.5
+PHEV,France,2025,108627,6.7
+PHEV,France,2026,19584,4.9
+PHEV,Germany,2020,200469,6.9
+PHEV,Germany,2021,325449,12.4
+PHEV,Germany,2022,362093,13.7
+PHEV,Germany,2023,175724,6.2
+PHEV,Germany,2024,191905,6.8
+PHEV,Germany,2025,311398,10.9
+PHEV,Germany,2026,76114,10.9
+PHEV,Greece,2020,1456,1.8
+PHEV,Greece,2021,4785,4.7
+PHEV,Greece,2022,5493,5.2
+PHEV,Greece,2023,8826,6.6
+PHEV,Greece,2024,8262,6.0
+PHEV,Greece,2025,11656,8.1
+PHEV,Greece,2026,2315,6.7
+PHEV,Hungary,2020,2996,2.3
+PHEV,Hungary,2021,4236,3.5
+PHEV,Hungary,2022,4874,4.4
+PHEV,Hungary,2023,5542,5.1
+PHEV,Hungary,2024,5695,4.7
+PHEV,Hungary,2025,7136,5.5
+PHEV,Hungary,2026,2425,6.7
+PHEV,Ireland,2020,2492,2.8
+PHEV,Ireland,2021,7891,7.5
+PHEV,Ireland,2022,7678,7.3
+PHEV,Ireland,2023,10382,8.5
+PHEV,Ireland,2024,12538,10.4
+PHEV,Ireland,2025,18934,15.2
+PHEV,Ireland,2026,9685,14.9
+PHEV,Italy,2020,27407,2.0
+PHEV,Italy,2021,69834,4.8
+PHEV,Italy,2022,65580,5.0
+PHEV,Italy,2023,69008,4.4
+PHEV,Italy,2024,51792,3.3
+PHEV,Italy,2025,98340,6.4
+PHEV,Italy,2026,40052,8.3
+PHEV,Latvia,2020,73,0.5
+PHEV,Latvia,2021,137,1.0
+PHEV,Latvia,2022,301,1.8
+PHEV,Latvia,2023,363,1.9
+PHEV,Latvia,2024,798,4.6
+PHEV,Latvia,2025,2742,12.2
+PHEV,Latvia,2026,487,9.8
+PHEV,Lithuania,2020,0,0.0
+PHEV,Lithuania,2021,400,1.3
+PHEV,Lithuania,2022,666,2.6
+PHEV,Lithuania,2023,0,0.0
+PHEV,Lithuania,2024,1685,5.6
+PHEV,Lithuania,2025,4448,10.6
+PHEV,Lithuania,2026,1162,12.1
+PHEV,Luxembourg,2020,2685,5.9
+PHEV,Luxembourg,2021,4443,10.0
+PHEV,Luxembourg,2022,3847,9.1
+PHEV,Luxembourg,2023,4804,9.8
+PHEV,Luxembourg,2024,3831,7.5
+PHEV,Luxembourg,2025,3721,7.9
+PHEV,Luxembourg,2026,707,5.6
+PHEV,Netherlands,2020,14891,4.2
+PHEV,Netherlands,2021,30991,9.6
+PHEV,Netherlands,2022,34512,11.1
+PHEV,Netherlands,2023,47082,12.7
+PHEV,Netherlands,2024,52581,13.8
+PHEV,Netherlands,2025,73445,18.9
+PHEV,Netherlands,2026,21055,25.8
+PHEV,Norway,2020,28909,20.4
+PHEV,Norway,2021,38167,21.7
+PHEV,Norway,2022,16124,9.2
+PHEV,Norway,2023,10170,8.0
+PHEV,Norway,2024,3489,2.7
+PHEV,Norway,2025,2750,1.5
+PHEV,Norway,2026,189,0.7
+PHEV,Poland,2020,4505,1.1
+PHEV,Poland,2021,9138,2.0
+PHEV,Poland,2022,9664,2.3
+PHEV,Poland,2023,13171,2.8
+PHEV,Poland,2024,14990,2.7
+PHEV,Poland,2025,34137,5.7
+PHEV,Poland,2026,11684,7.7
+PHEV,Portugal,2020,11867,8.2
+PHEV,Portugal,2021,15660,10.7
+PHEV,Portugal,2022,16026,10.3
+PHEV,Portugal,2023,27146,13.6
+PHEV,Portugal,2024,28346,13.5
+PHEV,Portugal,2025,34166,15.2
+PHEV,Portugal,2026,8584,13.4
+PHEV,Romania,2020,1036,0.8
+PHEV,Romania,2021,0,0.0
+PHEV,Romania,2022,0,0.0
+PHEV,Romania,2023,0,0.0
+PHEV,Romania,2024,0,0.0
+PHEV,Romania,2025,0,0.0
+PHEV,Romania,2026,0,0.0
+PHEV,Slovakia,2020,863,1.1
+PHEV,Slovakia,2021,1166,1.5
+PHEV,Slovakia,2022,1556,2.0
+PHEV,Slovakia,2023,2997,3.4
+PHEV,Slovakia,2024,2243,2.4
+PHEV,Slovakia,2025,4085,4.4
+PHEV,Slovakia,2026,712,3.6
+PHEV,Slovenia,2020,39,0.1
+PHEV,Slovenia,2021,308,0.6
+PHEV,Slovenia,2022,590,1.3
+PHEV,Slovenia,2023,1044,2.1
+PHEV,Slovenia,2024,1162,2.2
+PHEV,Slovenia,2025,1939,3.4
+PHEV,Slovenia,2026,734,4.4
+PHEV,Spain,2020,23309,2.7
+PHEV,Spain,2021,43227,5.0
+PHEV,Spain,2022,47788,5.9
+PHEV,Spain,2023,62164,6.5
+PHEV,Spain,2024,58558,5.8
+PHEV,Spain,2025,123989,10.8
+PHEV,Spain,2026,35740,11.9
+PHEV,Sweden,2020,66105,22.6
+PHEV,Sweden,2021,77853,25.9
+PHEV,Sweden,2022,66614,23.1
+PHEV,Sweden,2023,61024,21.1
+PHEV,Sweden,2024,63113,23.4
+PHEV,Sweden,2025,72787,26.7
+PHEV,Sweden,2026,14960,24.1
+PHEV,United Kingdom,2020,67134,4.1
+PHEV,United Kingdom,2021,114554,7.0
+PHEV,United Kingdom,2022,101414,6.3
+PHEV,United Kingdom,2023,141311,7.4
+PHEV,United Kingdom,2024,167178,8.0
+PHEV,United Kingdom,2025,225143,11.1
+PHEV,United Kingdom,2026,78666,12.8
+HEV,Austria,2020,26026,10.5
+HEV,Austria,2021,41970,17.5
+HEV,Austria,2022,40858,19.0
+HEV,Austria,2023,50630,21.2
+HEV,Austria,2024,64099,25.3
+HEV,Austria,2025,83044,29.1
+HEV,Austria,2026,23674,30.7
+HEV,Belgium,2020,15204,3.5
+HEV,Belgium,2021,19580,5.1
+HEV,Belgium,2022,27472,7.5
+HEV,Belgium,2023,36781,7.7
+HEV,Belgium,2024,41305,9.2
+HEV,Belgium,2025,47023,11.3
+HEV,Belgium,2026,13928,12.2
+HEV,Bulgaria,2020,429,1.9
+HEV,Bulgaria,2021,662,2.7
+HEV,Bulgaria,2022,713,2.5
+HEV,Bulgaria,2023,693,1.8
+HEV,Bulgaria,2024,1005,2.3
+HEV,Bulgaria,2025,2045,4.1
+HEV,Bulgaria,2026,647,5.6
+HEV,Croatia,2020,2180,6.0
+HEV,Croatia,2021,6440,14.1
+HEV,Croatia,2022,8174,18.6
+HEV,Croatia,2023,12875,22.3
+HEV,Croatia,2024,17736,27.3
+HEV,Croatia,2025,22538,32.3
+HEV,Croatia,2026,6289,37.2
+HEV,Cyprus,2020,1408,14.1
+HEV,Cyprus,2021,2475,23.3
+HEV,Cyprus,2022,3479,29.9
+HEV,Cyprus,2023,5633,38.2
+HEV,Cyprus,2024,6438,40.0
+HEV,Cyprus,2025,6899,47.1
+HEV,Cyprus,2026,1855,50.5
+HEV,Czech Rep.,2020,12769,6.3
+HEV,Czech Rep.,2021,25580,12.4
+HEV,Czech Rep.,2022,28195,14.7
+HEV,Czech Rep.,2023,40288,18.2
+HEV,Czech Rep.,2024,50973,22.0
+HEV,Czech Rep.,2025,57120,23.0
+HEV,Czech Rep.,2026,14557,24.0
+HEV,Denmark,2020,9637,4.9
+HEV,Denmark,2021,31686,17.1
+HEV,Denmark,2022,28254,19.0
+HEV,Denmark,2023,30266,17.5
+HEV,Denmark,2024,29869,17.3
+HEV,Denmark,2025,25128,13.6
+HEV,Denmark,2026,5129,11.7
+HEV,Estonia,2020,2715,14.5
+HEV,Estonia,2021,6321,28.3
+HEV,Estonia,2022,7189,33.3
+HEV,Estonia,2023,9067,39.7
+HEV,Estonia,2024,11536,45.4
+HEV,Estonia,2025,6748,51.7
+HEV,Estonia,2026,2286,53.8
+HEV,European Union,2020,1184526,11.9
+HEV,European Union,2021,1924732,19.8
+HEV,European Union,2022,2089653,22.6
+HEV,European Union,2023,2716963,25.8
+HEV,European Union,2024,3288862,30.9
+HEV,European Union,2025,3733325,34.5
+HEV,European Union,2026,1089421,38.6
+HEV,Finland,2020,18726,19.4
+HEV,Finland,2021,28108,28.5
+HEV,Finland,2022,25709,31.5
+HEV,Finland,2023,22376,25.6
+HEV,Finland,2024,22505,30.4
+HEV,Finland,2025,19569,27.2
+HEV,Finland,2026,4622,26.9
+HEV,France,2020,168873,10.2
+HEV,France,2021,289837,17.5
+HEV,France,2022,332669,21.8
+HEV,France,2023,432299,24.4
+HEV,France,2024,588895,34.3
+HEV,France,2025,716154,43.9
+HEV,France,2026,189901,47.3
+HEV,Germany,2020,327395,11.2
+HEV,Germany,2021,429139,16.4
+HEV,Germany,2022,465228,17.5
+HEV,Germany,2023,664580,23.4
+HEV,Germany,2024,755493,26.8
+HEV,Germany,2025,816111,28.6
+HEV,Germany,2026,206566,29.5
+HEV,Greece,2020,11751,14.5
+HEV,Greece,2021,23382,23.2
+HEV,Greece,2022,29019,27.6
+HEV,Greece,2023,41560,30.9
+HEV,Greece,2024,57917,42.3
+HEV,Greece,2025,73125,50.7
+HEV,Greece,2026,19938,57.3
+HEV,Hungary,2020,31772,24.8
+HEV,Hungary,2021,48145,39.5
+HEV,Hungary,2022,42499,38.1
+HEV,Hungary,2023,45022,41.8
+HEV,Hungary,2024,56034,46.1
+HEV,Hungary,2025,65369,50.5
+HEV,Hungary,2026,20283,55.6
+HEV,Ireland,2020,10986,12.4
+HEV,Ireland,2021,19247,18.3
+HEV,Ireland,2022,21252,20.2
+HEV,Ireland,2023,25039,20.5
+HEV,Ireland,2024,26839,22.2
+HEV,Ireland,2025,29692,23.8
+HEV,Ireland,2026,19048,29.4
+HEV,Italy,2020,221931,16.1
+HEV,Italy,2021,422845,29.0
+HEV,Italy,2022,449993,34.2
+HEV,Italy,2023,565551,36.1
+HEV,Italy,2024,623665,40.0
+HEV,Italy,2025,671923,44.1
+HEV,Italy,2026,249430,51.5
+HEV,Latvia,2020,1895,14.0
+HEV,Latvia,2021,3228,22.9
+HEV,Latvia,2022,4347,25.9
+HEV,Latvia,2023,5567,29.2
+HEV,Latvia,2024,6095,35.2
+HEV,Latvia,2025,0,0.0
+HEV,Latvia,2026,0,0.0
+HEV,Lithuania,2020,8293,20.6
+HEV,Lithuania,2021,4231,13.5
+HEV,Lithuania,2022,4738,18.5
+HEV,Lithuania,2023,11763,42.7
+HEV,Lithuania,2024,13891,46.1
+HEV,Lithuania,2025,19603,46.7
+HEV,Lithuania,2026,4910,51.3
+HEV,Luxembourg,2020,3797,8.4
+HEV,Luxembourg,2021,7225,16.3
+HEV,Luxembourg,2022,8035,19.1
+HEV,Luxembourg,2023,9471,19.3
+HEV,Luxembourg,2024,10460,20.6
+HEV,Luxembourg,2025,13821,29.3
+HEV,Luxembourg,2026,4218,33.6
+HEV,Netherlands,2020,47583,13.4
+HEV,Netherlands,2021,71539,22.2
+HEV,Netherlands,2022,77888,25.0
+HEV,Netherlands,2023,90070,24.4
+HEV,Netherlands,2024,107124,28.1
+HEV,Netherlands,2025,102331,26.4
+HEV,Netherlands,2026,26548,32.6
+HEV,Norway,2020,12246,8.7
+HEV,Norway,2021,9780,5.5
+HEV,Norway,2022,10158,5.8
+HEV,Norway,2023,7584,6.0
+HEV,Norway,2024,6869,5.3
+HEV,Norway,2025,2391,1.3
+HEV,Norway,2026,37,0.1
+HEV,Poland,2020,66251,15.5
+HEV,Poland,2021,130354,29.2
+HEV,Poland,2022,136948,32.6
+HEV,Poland,2023,187293,39.4
+HEV,Poland,2024,248531,45.1
+HEV,Poland,2025,272968,45.7
+HEV,Poland,2026,78098,51.5
+HEV,Portugal,2020,11902,8.2
+HEV,Portugal,2021,19082,13.0
+HEV,Portugal,2022,24079,15.4
+HEV,Portugal,2023,28859,14.5
+HEV,Portugal,2024,35020,16.7
+HEV,Portugal,2025,50117,22.3
+HEV,Portugal,2026,20764,32.4
+HEV,Romania,2020,14271,11.2
+HEV,Romania,2021,30706,25.3
+HEV,Romania,2022,34410,26.6
+HEV,Romania,2023,44217,30.6
+HEV,Romania,2024,43401,31.4
+HEV,Romania,2025,77140,49.2
+HEV,Romania,2026,15740,57.7
+HEV,Slovakia,2020,7233,9.5
+HEV,Slovakia,2021,15148,20.0
+HEV,Slovakia,2022,17355,22.0
+HEV,Slovakia,2023,24183,27.5
+HEV,Slovakia,2024,28206,30.2
+HEV,Slovakia,2025,32168,34.6
+HEV,Slovakia,2026,7551,37.7
+HEV,Slovenia,2020,1719,3.2
+HEV,Slovenia,2021,6181,11.4
+HEV,Slovenia,2022,6170,13.3
+HEV,Slovenia,2023,4903,10.0
+HEV,Slovenia,2024,5572,10.5
+HEV,Slovenia,2025,7969,13.8
+HEV,Slovenia,2026,2666,16.2
+HEV,Spain,2020,137425,16.1
+HEV,Spain,2021,219426,25.5
+HEV,Spain,2022,239471,29.4
+HEV,Spain,2023,302845,31.9
+HEV,Spain,2024,392365,38.6
+HEV,Spain,2025,482880,42.0
+HEV,Spain,2026,144023,47.9
+HEV,Sweden,2020,22355,7.7
+HEV,Sweden,2021,22195,7.4
+HEV,Sweden,2022,25509,8.9
+HEV,Sweden,2023,23575,8.1
+HEV,Sweden,2024,27409,10.2
+HEV,Sweden,2025,30302,11.1
+HEV,Sweden,2026,6250,10.1
+HEV,United Kingdom,2020,289992,17.8
+HEV,United Kingdom,2021,444024,27.0
+HEV,United Kingdom,2022,479992,29.7
+HEV,United Kingdom,2023,601071,31.6
+HEV,United Kingdom,2024,689973,33.1
+HEV,United Kingdom,2025,745388,36.9
+HEV,United Kingdom,2026,244196,39.7
+Gas/Other,Austria,2020,407,0.2
+Gas/Other,Austria,2021,86,0.0
+Gas/Other,Austria,2022,63,0.0
+Gas/Other,Austria,2023,21,0.0
+Gas/Other,Austria,2024,13,0.0
+Gas/Other,Austria,2025,2,0.0
+Gas/Other,Austria,2026,0,0.0
+Gas/Other,Belgium,2020,3864,0.9
+Gas/Other,Belgium,2021,3087,0.8
+Gas/Other,Belgium,2022,2884,0.8
+Gas/Other,Belgium,2023,3593,0.8
+Gas/Other,Belgium,2024,3520,0.8
+Gas/Other,Belgium,2025,3161,0.8
+Gas/Other,Belgium,2026,636,0.6
+Gas/Other,Bulgaria,2020,164,0.7
+Gas/Other,Bulgaria,2021,0,0.0
+Gas/Other,Bulgaria,2022,0,0.0
+Gas/Other,Bulgaria,2023,28,0.1
+Gas/Other,Bulgaria,2024,0,0.0
+Gas/Other,Bulgaria,2025,200,0.4
+Gas/Other,Bulgaria,2026,5,0.0
+Gas/Other,Croatia,2020,715,2.0
+Gas/Other,Croatia,2021,1997,4.4
+Gas/Other,Croatia,2022,1810,4.1
+Gas/Other,Croatia,2023,1722,3.0
+Gas/Other,Croatia,2024,1404,2.2
+Gas/Other,Croatia,2025,1280,1.8
+Gas/Other,Croatia,2026,208,1.2
+Gas/Other,Cyprus,2020,0,0.0
+Gas/Other,Cyprus,2021,0,0.0
+Gas/Other,Cyprus,2022,1,0.0
+Gas/Other,Cyprus,2023,0,0.0
+Gas/Other,Cyprus,2024,0,0.0
+Gas/Other,Cyprus,2025,0,0.0
+Gas/Other,Cyprus,2026,0,0.0
+Gas/Other,Czech Rep.,2020,2586,1.3
+Gas/Other,Czech Rep.,2021,3110,1.5
+Gas/Other,Czech Rep.,2022,4774,2.5
+Gas/Other,Czech Rep.,2023,4031,1.8
+Gas/Other,Czech Rep.,2024,4817,2.1
+Gas/Other,Czech Rep.,2025,6487,2.6
+Gas/Other,Czech Rep.,2026,1138,1.9
+Gas/Other,Denmark,2020,0,0.0
+Gas/Other,Denmark,2021,0,0.0
+Gas/Other,Denmark,2022,0,0.0
+Gas/Other,Denmark,2023,1,0.0
+Gas/Other,Denmark,2024,0,0.0
+Gas/Other,Denmark,2025,28,0.0
+Gas/Other,Denmark,2026,2,0.0
+Gas/Other,Estonia,2020,664,3.5
+Gas/Other,Estonia,2021,466,2.1
+Gas/Other,Estonia,2022,288,1.3
+Gas/Other,Estonia,2023,66,0.3
+Gas/Other,Estonia,2024,146,0.6
+Gas/Other,Estonia,2025,0,0.0
+Gas/Other,Estonia,2026,0,0.0
+Gas/Other,European Union,2020,208528,2.1
+Gas/Other,European Union,2021,269481,2.8
+Gas/Other,European Union,2022,275756,3.0
+Gas/Other,European Union,2023,320638,3.0
+Gas/Other,European Union,2024,326145,3.1
+Gas/Other,European Union,2025,352927,3.3
+Gas/Other,European Union,2026,62848,2.2
+Gas/Other,Finland,2020,1840,1.9
+Gas/Other,Finland,2021,921,0.9
+Gas/Other,Finland,2022,622,0.8
+Gas/Other,Finland,2023,470,0.5
+Gas/Other,Finland,2024,160,0.2
+Gas/Other,Finland,2025,9,0.0
+Gas/Other,Finland,2026,0,0.0
+Gas/Other,France,2020,16965,1.0
+Gas/Other,France,2021,49016,3.0
+Gas/Other,France,2022,58711,3.8
+Gas/Other,France,2023,67945,3.8
+Gas/Other,France,2024,59805,3.5
+Gas/Other,France,2025,55819,3.4
+Gas/Other,France,2026,11481,2.9
+Gas/Other,Germany,2020,13704,0.5
+Gas/Other,Germany,2021,14085,0.5
+Gas/Other,Germany,2022,16924,0.6
+Gas/Other,Germany,2023,14845,0.5
+Gas/Other,Germany,2024,14115,0.5
+Gas/Other,Germany,2025,12277,0.4
+Gas/Other,Germany,2026,1725,0.2
+Gas/Other,Greece,2020,1780,2.2
+Gas/Other,Greece,2021,3394,3.4
+Gas/Other,Greece,2022,3708,3.5
+Gas/Other,Greece,2023,3773,2.8
+Gas/Other,Greece,2024,3431,2.5
+Gas/Other,Greece,2025,4715,3.3
+Gas/Other,Greece,2026,814,2.3
+Gas/Other,Hungary,2020,335,0.3
+Gas/Other,Hungary,2021,727,0.6
+Gas/Other,Hungary,2022,895,0.8
+Gas/Other,Hungary,2023,562,0.5
+Gas/Other,Hungary,2024,363,0.3
+Gas/Other,Hungary,2025,639,0.5
+Gas/Other,Hungary,2026,87,0.2
+Gas/Other,Ireland,2020,0,0.0
+Gas/Other,Ireland,2021,0,0.0
+Gas/Other,Ireland,2022,140,0.1
+Gas/Other,Ireland,2023,0,0.0
+Gas/Other,Ireland,2024,0,0.0
+Gas/Other,Ireland,2025,0,0.0
+Gas/Other,Ireland,2026,0,0.0
+Gas/Other,Italy,2020,125086,9.1
+Gas/Other,Italy,2021,138251,9.5
+Gas/Other,Italy,2022,128743,9.8
+Gas/Other,Italy,2023,143914,9.2
+Gas/Other,Italy,2024,146806,9.4
+Gas/Other,Italy,2025,140529,9.2
+Gas/Other,Italy,2026,26889,5.5
+Gas/Other,Latvia,2020,140,1.0
+Gas/Other,Latvia,2021,280,2.0
+Gas/Other,Latvia,2022,339,2.0
+Gas/Other,Latvia,2023,341,1.8
+Gas/Other,Latvia,2024,374,2.2
+Gas/Other,Latvia,2025,402,1.8
+Gas/Other,Latvia,2026,130,2.6
+Gas/Other,Lithuania,2020,81,0.2
+Gas/Other,Lithuania,2021,318,1.0
+Gas/Other,Lithuania,2022,373,1.5
+Gas/Other,Lithuania,2023,1,0.0
+Gas/Other,Lithuania,2024,577,1.9
+Gas/Other,Lithuania,2025,689,1.6
+Gas/Other,Lithuania,2026,122,1.3
+Gas/Other,Luxembourg,2020,3,0.0
+Gas/Other,Luxembourg,2021,3,0.0
+Gas/Other,Luxembourg,2022,2,0.0
+Gas/Other,Luxembourg,2023,0,0.0
+Gas/Other,Luxembourg,2024,0,0.0
+Gas/Other,Luxembourg,2025,4,0.0
+Gas/Other,Luxembourg,2026,0,0.0
+Gas/Other,Netherlands,2020,1981,0.6
+Gas/Other,Netherlands,2021,2268,0.7
+Gas/Other,Netherlands,2022,2303,0.7
+Gas/Other,Netherlands,2023,2401,0.6
+Gas/Other,Netherlands,2024,2186,0.6
+Gas/Other,Netherlands,2025,1367,0.4
+Gas/Other,Netherlands,2026,171,0.2
+Gas/Other,Norway,2020,5,0.0
+Gas/Other,Norway,2021,0,0.0
+Gas/Other,Norway,2022,0,0.0
+Gas/Other,Norway,2023,2,0.0
+Gas/Other,Norway,2024,9,0.0
+Gas/Other,Norway,2025,0,0.0
+Gas/Other,Norway,2026,0,0.0
+Gas/Other,Poland,2020,9374,2.2
+Gas/Other,Poland,2021,13528,3.0
+Gas/Other,Poland,2022,12247,2.9
+Gas/Other,Poland,2023,12596,2.7
+Gas/Other,Poland,2024,16563,3.0
+Gas/Other,Poland,2025,19177,3.2
+Gas/Other,Poland,2026,3806,2.5
+Gas/Other,Portugal,2020,1845,1.3
+Gas/Other,Portugal,2021,3555,2.4
+Gas/Other,Portugal,2022,5438,3.5
+Gas/Other,Portugal,2023,11211,5.6
+Gas/Other,Portugal,2024,15077,7.2
+Gas/Other,Portugal,2025,20326,9.0
+Gas/Other,Portugal,2026,3082,4.8
+Gas/Other,Romania,2020,9278,7.3
+Gas/Other,Romania,2021,15952,13.2
+Gas/Other,Romania,2022,13391,10.4
+Gas/Other,Romania,2023,17669,12.2
+Gas/Other,Romania,2024,17378,12.6
+Gas/Other,Romania,2025,22470,14.3
+Gas/Other,Romania,2026,2030,7.4
+Gas/Other,Slovakia,2020,946,1.2
+Gas/Other,Slovakia,2021,1188,1.6
+Gas/Other,Slovakia,2022,1698,2.2
+Gas/Other,Slovakia,2023,1812,2.1
+Gas/Other,Slovakia,2024,1807,1.9
+Gas/Other,Slovakia,2025,1680,1.8
+Gas/Other,Slovakia,2026,255,1.3
+Gas/Other,Slovenia,2020,184,0.3
+Gas/Other,Slovenia,2021,572,1.1
+Gas/Other,Slovenia,2022,699,1.5
+Gas/Other,Slovenia,2023,503,1.0
+Gas/Other,Slovenia,2024,834,1.6
+Gas/Other,Slovenia,2025,498,0.9
+Gas/Other,Slovenia,2026,154,0.9
+Gas/Other,Spain,2020,13084,1.5
+Gas/Other,Spain,2021,14040,1.6
+Gas/Other,Spain,2022,14930,1.8
+Gas/Other,Spain,2023,26343,2.8
+Gas/Other,Spain,2024,33521,3.3
+Gas/Other,Spain,2025,59275,5.2
+Gas/Other,Spain,2026,9762,3.2
+Gas/Other,Sweden,2020,3502,1.2
+Gas/Other,Sweden,2021,2637,0.9
+Gas/Other,Sweden,2022,4773,1.7
+Gas/Other,Sweden,2023,6788,2.3
+Gas/Other,Sweden,2024,5234,1.9
+Gas/Other,Sweden,2025,1892,0.7
+Gas/Other,Sweden,2026,351,0.6
+Gas/Other,United Kingdom,2020,0,0.0
+Gas/Other,United Kingdom,2021,0,0.0
+Gas/Other,United Kingdom,2022,0,0.0
+Gas/Other,United Kingdom,2023,0,0.0
+Gas/Other,United Kingdom,2024,0,0.0
+Gas/Other,United Kingdom,2025,0,0.0
+Gas/Other,United Kingdom,2026,2,0.0
+Diesel,Austria,2020,90909,36.5
+Diesel,Austria,2021,58263,24.3
+Diesel,Austria,2022,48115,22.4
+Diesel,Austria,2023,46568,19.5
+Diesel,Austria,2024,44132,17.4
+Diesel,Austria,2025,33004,11.6
+Diesel,Austria,2026,7731,10.0
+Diesel,Belgium,2020,142100,32.9
+Diesel,Belgium,2021,90954,23.7
+Diesel,Belgium,2022,59972,16.4
+Diesel,Belgium,2023,41714,8.8
+Diesel,Belgium,2024,21879,4.9
+Diesel,Belgium,2025,12709,3.1
+Diesel,Belgium,2026,2621,2.3
+Diesel,Bulgaria,2020,2635,11.8
+Diesel,Bulgaria,2021,5495,22.4
+Diesel,Bulgaria,2022,5764,20.1
+Diesel,Bulgaria,2023,6032,16.0
+Diesel,Bulgaria,2024,6986,16.3
+Diesel,Bulgaria,2025,5313,10.8
+Diesel,Bulgaria,2026,1214,10.6
+Diesel,Croatia,2020,12885,35.5
+Diesel,Croatia,2021,11571,25.3
+Diesel,Croatia,2022,9150,20.8
+Diesel,Croatia,2023,11829,20.5
+Diesel,Croatia,2024,12203,18.8
+Diesel,Croatia,2025,9863,14.1
+Diesel,Croatia,2026,2176,12.9
+Diesel,Cyprus,2020,2856,28.6
+Diesel,Cyprus,2021,1530,14.4
+Diesel,Cyprus,2022,596,5.1
+Diesel,Cyprus,2023,448,3.0
+Diesel,Cyprus,2024,448,2.8
+Diesel,Cyprus,2025,395,2.7
+Diesel,Cyprus,2026,98,2.7
+Diesel,Czech Rep.,2020,59767,29.4
+Diesel,Czech Rep.,2021,49537,24.0
+Diesel,Czech Rep.,2022,45014,23.4
+Diesel,Czech Rep.,2023,50098,22.6
+Diesel,Czech Rep.,2024,49166,21.2
+Diesel,Czech Rep.,2025,42581,17.1
+Diesel,Czech Rep.,2026,11636,19.2
+Diesel,Denmark,2020,44709,22.6
+Diesel,Denmark,2021,18205,9.8
+Diesel,Denmark,2022,10111,6.8
+Diesel,Denmark,2023,8132,4.7
+Diesel,Denmark,2024,7048,4.1
+Diesel,Denmark,2025,4774,2.6
+Diesel,Denmark,2026,939,2.1
+Diesel,Estonia,2020,4637,24.7
+Diesel,Estonia,2021,4084,18.3
+Diesel,Estonia,2022,3492,16.2
+Diesel,Estonia,2023,2836,12.4
+Diesel,Estonia,2024,4421,17.4
+Diesel,Estonia,2025,1194,9.1
+Diesel,Estonia,2026,484,11.4
+Diesel,European Union,2020,2776665,27.9
+Diesel,European Union,2021,1897206,19.6
+Diesel,European Union,2022,1522686,16.4
+Diesel,European Union,2023,1433368,13.6
+Diesel,European Union,2024,1267741,11.9
+Diesel,European Union,2025,960024,8.9
+Diesel,European Union,2026,218565,7.7
+Diesel,Finland,2020,12777,13.3
+Diesel,Finland,2021,8397,8.5
+Diesel,Finland,2022,5418,6.6
+Diesel,Finland,2023,4124,4.7
+Diesel,Finland,2024,3413,4.6
+Diesel,Finland,2025,2924,4.1
+Diesel,Finland,2026,616,3.6
+Diesel,France,2020,504178,30.6
+Diesel,France,2021,349479,21.1
+Diesel,France,2022,239105,15.6
+Diesel,France,2023,171728,9.7
+Diesel,France,2024,124951,7.3
+Diesel,France,2025,79397,4.9
+Diesel,France,2026,10066,2.5
+Diesel,Germany,2020,819896,28.1
+Diesel,Germany,2021,524446,20.0
+Diesel,Germany,2022,472274,17.8
+Diesel,Germany,2023,486581,17.1
+Diesel,Germany,2024,483261,17.2
+Diesel,Germany,2025,395022,13.8
+Diesel,Germany,2026,96311,13.8
+Diesel,Greece,2020,22251,27.5
+Diesel,Greece,2021,17549,17.4
+Diesel,Greece,2022,17114,16.3
+Diesel,Greece,2023,17653,13.1
+Diesel,Greece,2024,9835,7.2
+Diesel,Greece,2025,4950,3.4
+Diesel,Greece,2026,895,2.6
+Diesel,Hungary,2020,27623,21.6
+Diesel,Hungary,2021,19015,15.6
+Diesel,Hungary,2022,14271,12.8
+Diesel,Hungary,2023,13043,12.1
+Diesel,Hungary,2024,14674,12.1
+Diesel,Hungary,2025,14374,11.1
+Diesel,Hungary,2026,3268,9.0
+Diesel,Ireland,2020,38233,43.3
+Diesel,Ireland,2021,35086,33.4
+Diesel,Ireland,2022,28181,26.8
+Diesel,Ireland,2023,27248,22.3
+Diesel,Ireland,2024,27249,22.5
+Diesel,Ireland,2025,21351,17.1
+Diesel,Ireland,2026,8389,12.9
+Diesel,Italy,2020,452156,32.7
+Diesel,Italy,2021,323037,22.2
+Diesel,Italy,2022,257965,19.6
+Diesel,Italy,2023,273295,17.5
+Diesel,Italy,2024,215294,13.8
+Diesel,Italy,2025,147277,9.7
+Diesel,Italy,2026,34076,7.0
+Diesel,Latvia,2020,4614,34.1
+Diesel,Latvia,2021,3272,23.2
+Diesel,Latvia,2022,2852,17.0
+Diesel,Latvia,2023,2973,15.6
+Diesel,Latvia,2024,2944,17.0
+Diesel,Latvia,2025,3122,13.9
+Diesel,Latvia,2026,626,12.5
+Diesel,Lithuania,2020,6946,17.3
+Diesel,Lithuania,2021,4847,15.4
+Diesel,Lithuania,2022,3696,14.5
+Diesel,Lithuania,2023,3223,11.7
+Diesel,Lithuania,2024,4346,14.4
+Diesel,Lithuania,2025,5155,12.3
+Diesel,Lithuania,2026,983,10.3
+Diesel,Luxembourg,2020,16628,36.8
+Diesel,Luxembourg,2021,11194,25.2
+Diesel,Luxembourg,2022,9236,21.9
+Diesel,Luxembourg,2023,7480,15.2
+Diesel,Luxembourg,2024,7476,14.7
+Diesel,Luxembourg,2025,4673,9.9
+Diesel,Luxembourg,2026,1251,10.0
+Diesel,Netherlands,2020,12963,3.6
+Diesel,Netherlands,2021,6920,2.1
+Diesel,Netherlands,2022,4639,1.5
+Diesel,Netherlands,2023,3966,1.1
+Diesel,Netherlands,2024,3763,1.0
+Diesel,Netherlands,2025,3993,1.0
+Diesel,Netherlands,2026,1005,1.2
+Diesel,Norway,2020,12163,8.6
+Diesel,Norway,2021,7093,4.0
+Diesel,Norway,2022,5427,3.1
+Diesel,Norway,2023,3119,2.5
+Diesel,Norway,2024,2938,2.3
+Diesel,Norway,2025,1773,1.0
+Diesel,Norway,2026,291,1.1
+Diesel,Poland,2020,79247,18.5
+Diesel,Poland,2021,54477,12.2
+Diesel,Poland,2022,46471,11.1
+Diesel,Poland,2023,46830,9.9
+Diesel,Poland,2024,48866,8.9
+Diesel,Poland,2025,42543,7.1
+Diesel,Poland,2026,9099,6.0
+Diesel,Portugal,2020,47741,32.8
+Diesel,Portugal,2021,32068,21.9
+Diesel,Portugal,2022,27968,17.9
+Diesel,Portugal,2023,23987,12.0
+Diesel,Portugal,2024,18443,8.8
+Diesel,Portugal,2025,12989,5.8
+Diesel,Portugal,2026,2691,4.2
+Diesel,Romania,2020,33834,26.6
+Diesel,Romania,2021,20394,16.8
+Diesel,Romania,2022,16587,12.8
+Diesel,Romania,2023,16322,11.3
+Diesel,Romania,2024,16062,11.6
+Diesel,Romania,2025,12686,8.1
+Diesel,Romania,2026,2025,7.4
+Diesel,Slovakia,2020,19082,25.0
+Diesel,Slovakia,2021,14909,19.7
+Diesel,Slovakia,2022,12938,16.4
+Diesel,Slovakia,2023,15253,17.3
+Diesel,Slovakia,2024,14808,15.9
+Diesel,Slovakia,2025,12704,13.6
+Diesel,Slovakia,2026,2379,11.9
+Diesel,Slovenia,2020,17806,33.2
+Diesel,Slovenia,2021,12950,24.0
+Diesel,Slovenia,2022,9012,19.4
+Diesel,Slovenia,2023,8841,18.1
+Diesel,Slovenia,2024,9658,18.2
+Diesel,Slovenia,2025,8709,15.1
+Diesel,Slovenia,2026,2250,13.6
+Diesel,Spain,2020,235888,27.7
+Diesel,Spain,2021,171164,19.9
+Diesel,Spain,2022,139599,17.2
+Diesel,Spain,2023,118646,12.5
+Diesel,Spain,2024,96380,9.5
+Diesel,Spain,2025,62670,5.5
+Diesel,Spain,2026,11934,4.0
+Diesel,Sweden,2020,64304,22.0
+Diesel,Sweden,2021,48363,16.1
+Diesel,Sweden,2022,33146,11.5
+Diesel,Sweden,2023,23831,8.2
+Diesel,Sweden,2024,18771,7.0
+Diesel,Sweden,2025,15412,5.6
+Diesel,Sweden,2026,3750,6.1
+Diesel,United Kingdom,2020,261772,16.0
+Diesel,United Kingdom,2021,135773,8.2
+Diesel,United Kingdom,2022,82981,5.1
+Diesel,United Kingdom,2023,71501,3.8
+Diesel,United Kingdom,2024,71501,3.4
+Diesel,United Kingdom,2025,47359,2.3
+Diesel,United Kingdom,2026,11146,1.8
+Petrol,Austria,2020,107771,43.3
+Petrol,Austria,2021,91478,38.1
+Petrol,Austria,2022,78567,36.5
+Petrol,Austria,2023,77354,32.3
+Petrol,Austria,2024,84004,33.1
+Petrol,Austria,2025,79457,27.9
+Petrol,Austria,2026,20429,26.5
+Petrol,Belgium,2020,223635,51.8
+Petrol,Belgium,2021,199072,52.0
+Petrol,Belgium,2022,179056,48.9
+Petrol,Belgium,2023,200994,42.2
+Petrol,Belgium,2024,186836,41.7
+Petrol,Belgium,2025,168444,40.6
+Petrol,Belgium,2026,50541,44.4
+Petrol,Bulgaria,2020,18954,84.8
+Petrol,Bulgaria,2021,17816,72.7
+Petrol,Bulgaria,2022,21064,73.4
+Petrol,Bulgaria,2023,28800,76.3
+Petrol,Bulgaria,2024,32818,76.4
+Petrol,Bulgaria,2025,38875,78.7
+Petrol,Bulgaria,2026,8638,75.3
+Petrol,Croatia,2020,19803,54.6
+Petrol,Croatia,2021,24040,52.5
+Petrol,Croatia,2022,22589,51.4
+Petrol,Croatia,2023,28639,49.6
+Petrol,Croatia,2024,30479,46.9
+Petrol,Croatia,2025,32365,46.3
+Petrol,Croatia,2026,6348,37.6
+Petrol,Cyprus,2020,5606,56.1
+Petrol,Cyprus,2021,6437,60.6
+Petrol,Cyprus,2022,6920,59.5
+Petrol,Cyprus,2023,7360,49.9
+Petrol,Cyprus,2024,7360,45.7
+Petrol,Cyprus,2025,5093,34.8
+Petrol,Cyprus,2026,1101,30.0
+Petrol,Czech Rep.,2020,122584,60.4
+Petrol,Czech Rep.,2021,122115,59.1
+Petrol,Czech Rep.,2022,106578,55.5
+Petrol,Czech Rep.,2023,115051,52.0
+Petrol,Czech Rep.,2024,110895,47.9
+Petrol,Czech Rep.,2025,117692,47.3
+Petrol,Czech Rep.,2026,26997,44.6
+Petrol,Denmark,2020,111259,56.2
+Petrol,Denmark,2021,69977,37.8
+Petrol,Denmark,2022,52661,35.5
+Petrol,Denmark,2023,54357,31.5
+Petrol,Denmark,2024,39906,23.1
+Petrol,Denmark,2025,23477,12.7
+Petrol,Denmark,2026,2252,5.2
+Petrol,Estonia,2020,10317,55.0
+Petrol,Estonia,2021,10742,48.1
+Petrol,Estonia,2022,9445,43.8
+Petrol,Estonia,2023,8846,38.8
+Petrol,Estonia,2024,6695,26.4
+Petrol,Estonia,2025,2842,21.8
+Petrol,Estonia,2026,817,19.2
+Petrol,European Union,2020,4724417,47.5
+Petrol,European Union,2021,3867378,39.9
+Petrol,European Union,2022,3371153,36.4
+Petrol,European Union,2023,3724646,35.3
+Petrol,European Union,2024,3542755,33.3
+Petrol,European Union,2025,2880298,26.6
+Petrol,European Union,2026,636502,22.6
+Petrol,Finland,2020,45589,47.3
+Petrol,Finland,2021,30758,31.2
+Petrol,Finland,2022,19244,23.6
+Petrol,Finland,2023,12910,14.8
+Petrol,Finland,2024,11255,15.2
+Petrol,Finland,2025,8118,11.3
+Petrol,Finland,2026,1419,8.2
+Petrol,France,2020,774383,46.9
+Petrol,France,2021,667503,40.2
+Petrol,France,2022,568881,37.2
+Petrol,France,2023,641582,36.2
+Petrol,France,2024,507755,29.5
+Petrol,France,2025,345233,21.2
+Petrol,France,2026,58440,14.6
+Petrol,Germany,2020,1361723,46.7
+Petrol,Germany,2021,972588,37.1
+Petrol,Germany,2022,863445,32.6
+Petrol,Germany,2023,978660,34.4
+Petrol,Germany,2024,991948,35.2
+Petrol,Germany,2025,777641,27.2
+Petrol,Germany,2026,159058,22.7
+Petrol,Greece,2020,43060,53.2
+Petrol,Greece,2021,49625,49.2
+Petrol,Greece,2022,47122,44.8
+Petrol,Greece,2023,56293,41.9
+Petrol,Greece,2024,48923,35.7
+Petrol,Greece,2025,40861,28.3
+Petrol,Greece,2026,8556,24.6
+Petrol,Hungary,2020,62259,48.6
+Petrol,Hungary,2021,45485,37.3
+Petrol,Hungary,2022,44282,39.7
+Petrol,Hungary,2023,37752,35.0
+Petrol,Hungary,2024,36280,29.8
+Petrol,Hungary,2025,30920,23.9
+Petrol,Hungary,2026,7200,19.8
+Petrol,Ireland,2020,32601,36.9
+Petrol,Ireland,2021,34062,32.5
+Petrol,Ireland,2022,32324,30.7
+Petrol,Ireland,2023,36852,30.1
+Petrol,Ireland,2024,36878,30.5
+Petrol,Ireland,2025,31376,25.1
+Petrol,Ireland,2026,13789,21.2
+Petrol,Italy,2020,522764,37.8
+Petrol,Italy,2021,437068,30.0
+Petrol,Italy,2022,365461,27.8
+Petrol,Italy,2023,447298,28.6
+Petrol,Italy,2024,456052,29.2
+Petrol,Italy,2025,372150,24.4
+Petrol,Italy,2026,96046,19.8
+Petrol,Latvia,2020,6494,48.0
+Petrol,Latvia,2021,6779,48.0
+Petrol,Latvia,2022,7906,47.0
+Petrol,Latvia,2023,8147,42.7
+Petrol,Latvia,2024,5848,33.7
+Petrol,Latvia,2025,14638,65.0
+Petrol,Latvia,2026,3427,68.6
+Petrol,Lithuania,2020,24453,60.8
+Petrol,Lithuania,2021,20500,65.2
+Petrol,Lithuania,2022,14713,57.6
+Petrol,Lithuania,2023,10481,38.1
+Petrol,Lithuania,2024,7844,26.0
+Petrol,Lithuania,2025,8929,21.3
+Petrol,Lithuania,2026,1636,17.1
+Petrol,Luxembourg,2020,19603,43.4
+Petrol,Luxembourg,2021,16857,38.0
+Petrol,Luxembourg,2022,14581,34.6
+Petrol,Luxembourg,2023,16344,33.3
+Petrol,Luxembourg,2024,16332,32.1
+Petrol,Luxembourg,2025,12276,26.0
+Petrol,Luxembourg,2026,2981,23.8
+Petrol,Netherlands,2020,205008,57.7
+Petrol,Netherlands,2021,146821,45.6
+Petrol,Netherlands,2022,119402,38.3
+Petrol,Netherlands,2023,112291,30.4
+Petrol,Netherlands,2024,83407,21.9
+Petrol,Netherlands,2025,50749,13.1
+Petrol,Netherlands,2026,7832,9.6
+Petrol,Norway,2020,11285,8.0
+Petrol,Norway,2021,7485,4.2
+Petrol,Norway,2022,4333,2.5
+Petrol,Norway,2023,1493,1.2
+Petrol,Norway,2024,986,0.8
+Petrol,Norway,2025,487,0.3
+Petrol,Norway,2026,41,0.2
+Petrol,Poland,2020,265291,61.9
+Petrol,Poland,2021,231980,51.9
+Petrol,Poland,2022,203083,48.4
+Petrol,Poland,2023,198064,41.7
+Petrol,Poland,2024,206054,37.4
+Petrol,Poland,2025,185299,31.0
+Petrol,Poland,2026,40111,26.5
+Petrol,Portugal,2020,64232,44.2
+Petrol,Portugal,2021,63012,43.0
+Petrol,Portugal,2022,64976,41.6
+Petrol,Portugal,2023,72030,36.1
+Petrol,Portugal,2024,71072,33.9
+Petrol,Portugal,2025,55185,24.5
+Petrol,Portugal,2026,13802,21.5
+Petrol,Romania,2020,66121,51.9
+Petrol,Romania,2021,47809,39.4
+Petrol,Romania,2022,53302,41.2
+Petrol,Romania,2023,51035,35.3
+Petrol,Romania,2024,51801,37.4
+Petrol,Romania,2025,35658,22.7
+Petrol,Romania,2026,4893,17.9
+Petrol,Slovakia,2020,47263,61.9
+Petrol,Slovakia,2021,42184,55.7
+Petrol,Slovakia,2022,43903,55.7
+Petrol,Slovakia,2023,41412,47.1
+Petrol,Slovakia,2024,44118,47.2
+Petrol,Slovakia,2025,38089,40.9
+Petrol,Slovakia,2026,8131,40.6
+Petrol,Slovenia,2020,32282,60.1
+Petrol,Slovenia,2021,32254,59.7
+Petrol,Slovenia,2022,27575,59.5
+Petrol,Slovenia,2023,29188,59.8
+Petrol,Slovenia,2024,32644,61.6
+Petrol,Slovenia,2025,32022,55.6
+Petrol,Slovenia,2026,8400,50.9
+Petrol,Spain,2020,423577,49.8
+Petrol,Spain,2021,387931,45.1
+Petrol,Spain,2022,341063,41.9
+Petrol,Spain,2023,387749,40.8
+Petrol,Spain,2024,378687,37.2
+Petrol,Spain,2025,318209,27.7
+Petrol,Spain,2026,71844,23.9
+Petrol,Sweden,2020,107785,36.9
+Petrol,Sweden,2021,92485,30.7
+Petrol,Sweden,2022,63010,21.9
+Petrol,Sweden,2023,62401,21.5
+Petrol,Sweden,2024,60722,22.5
+Petrol,Sweden,2025,52882,19.4
+Petrol,Sweden,2026,11414,18.4
+Petrol,United Kingdom,2020,903961,55.4
+Petrol,United Kingdom,2021,762103,46.3
+Petrol,United Kingdom,2022,682473,42.3
+Petrol,United Kingdom,2023,774487,40.7
+Petrol,United Kingdom,2024,774484,37.1
+Petrol,United Kingdom,2025,529285,26.2
+Petrol,United Kingdom,2026,143230,23.3
