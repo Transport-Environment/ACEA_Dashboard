@@ -1,30 +1,30 @@
-Region,Market share battery-electric vehicles,BEV volume
-Denmark,80.0,34970
-Finland,46.9,8063
-Sweden,40.7,25235
-Belgium,34.7,39469
-Netherlands,30.5,24869
-France,27.9,112083
-Luxembourg,27.0,3381
-Portugal,23.6,15136
-Germany,22.8,159630
-Austria,22.5,17347
-United Kingdom,22.4,137614
-Ireland,21.5,13982
-Slovenia,13.9,2297
-Cyprus,11.6,425
-Romania,9.5,2587
-Spain,9.1,27226
-Hungary,8.8,3192
-Lithuania,7.9,758
-Italy,7.9,38084
-Greece,6.6,2294
-Bulgaria,6.5,747
-Latvia,6.5,323
-Estonia,6.1,260
-Poland,5.8,8841
-Czech Rep.,5.7,3439
-Slovakia,5.1,1014
-Croatia,4.6,780
-EU27,19.4,546432
-EU27+UK+NO,20.5,710663
+Region,BEV volume,market share
+Denmark,34970,80.0
+Finland,8063,46.9
+Sweden,25235,40.7
+Belgium,39469,34.7
+Netherlands,24869,30.5
+France,112083,27.9
+Luxembourg,3381,27.0
+Portugal,15136,23.6
+Germany,159630,22.8
+Austria,17347,22.5
+United Kingdom,137614,22.4
+Ireland,13982,21.5
+Slovenia,2297,13.9
+Cyprus,425,11.6
+Romania,2587,9.5
+Spain,27226,9.1
+Hungary,3192,8.8
+Lithuania,758,7.9
+Italy,38084,7.9
+Greece,2294,6.6
+Bulgaria,747,6.5
+Latvia,323,6.5
+Estonia,260,6.1
+Poland,8841,5.8
+Czech Rep.,3439,5.7
+Slovakia,1014,5.1
+Croatia,780,4.6
+EU27,546432,19.4
+EU27+UK+NO,710663,20.5
