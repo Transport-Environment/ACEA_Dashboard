@@ -96,6 +96,10 @@
   width: 100%;
 }
 
+.flourish-credit {
+  display: none !important;
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
