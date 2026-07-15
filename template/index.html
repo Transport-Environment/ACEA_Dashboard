@@ -2,11 +2,11 @@
 <html>
 
 <head>
-  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <title>ACEA EV Dashboard</title>
   <link rel="stylesheet" href="https://use.typekit.net/pnq5gyb.css">
-  <script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 
 <body id="main-code">
@@ -16,56 +16,106 @@
 
   <div class="main-content">
 
-    <div class="page-title">
-      <h1>Global population by region, 1900&ndash;2020</h1>
-      <p>Population has grown more than four-fold since 1900 across these seven World Bank regions, with the fastest growth concentrated in East Asia Pacific and South Asia.</p>
-    </div>
+    <section id="landing" class="landing-section">
 
-    <div id="dataContainer">
-      <div class="wrapper__25_number">
-        <div class="left-top box">
-          <h3 class="chart-title neutral">World total, 2020</h3>
-          <div id="hero-value"></div>
-          <p id="hero-sub"></p>
+      <div class="page-title">
+        <span class="eyebrow-tick"></span>
+        <h1><span class="hero-title-italic">Plugged in:</span> T&amp;E's EV market watch</h1>
+        <p>In 2026, battery electric vehicle sales reached record levels across Europe, with 23 out of 27 EU countries achieving their highest-ever yearly BEV market share. On average, the BEV share increased by two percentage points compared with 2025, rising from 17.4% to 19.4%. Denmark stands out in particular, reaching 80% market share, an increase of 12 percentage points in one year.</p>
+        <p>In quarter 1 2026, battery electric vehicles in the EU had a market share of 19%.</p>
+        <p class="updated-note">This dashboard is updated every quarter and now includes Q1 2026 data.</p>
+      </div>
+
+      <div id="dataContainer">
+        <div class="wrapper__50">
+          <div class="right-top">
+            <div class="flourish-chart-wrap">
+              <div class="flourish-embed" data-src="visualisation/29681583" style="width:100%;"></div>
+            </div>
+            <p class="footnote">Source: ACEA (2026) Alternative Fuel Vehicle Registrations Data.</p>
+          </div>
+          <div class="right-bottom">
+            <p class="chart-subtitle">👆 Click on a country to access its dashboard. Click on the EU flag to access the European Union dashboard.</p>
+            <div class="flourish-chart-wrap">
+              <div class="flourish-embed" data-src="visualisation/29682026" style="width:100%;"></div>
+            </div>
+          </div>
         </div>
-        <div class="left-bottom box">
-          <h3 class="chart-title neutral">Fastest-growing region</h3>
-          <div id="hero-value-2"></div>
-          <p id="hero-sub-2"></p>
+        <div class="logo-row">
+          <img class="te-logo" src="https://images.jifo.co/17001966_1715009749076.png" alt="T&amp;E">
         </div>
       </div>
-      <div class="right">
-        <div class="right-top">
-          <h3 class="chart-title accent-blue">Latest snapshot (2020)</h3>
-          <div id="table-container"></div>
+
+    </section>
+
+    <section id="country-eu" class="full-width box" style="margin: 20px 2% 0 2%;">
+
+      <div class="section-header">
+        <span class="eyebrow-tick"></span>
+        <h2>European Union</h2>
+      </div>
+
+      <div class="country-grid">
+        <div>
+
+          <div class="stat-row">
+            <div class="stat-box">
+              <h4>New cars growth (vs Q1-2025)</h4>
+              <div class="stat-line bev"><span class="stat-label">BEV</span><span class="stat-value">32.4%</span></div>
+              <div class="stat-line ice"><span class="stat-label">ICE</span><span class="stat-value">-17.7%</span></div>
+            </div>
+            <div class="stat-box">
+              <h4>Total fleet in 2024</h4>
+              <div class="stat-line bev"><span class="stat-label">BEV</span><span class="stat-value">5,887,986</span></div>
+              <div class="stat-line ice"><span class="stat-label">Cars</span><span class="stat-value">255,999,373</span></div>
+            </div>
+          </div>
+
+          <div class="right-top" style="margin-top:10px;">
+            <div class="flourish-chart-wrap">
+              <div class="flourish-embed" data-src="visualisation/29683026" style="width:100%;"></div>
+            </div>
+          </div>
+
+          <p class="footnote">Data sources: Quarterly registration data from ACEA (2026). Fleet data from EAFO (2024). ICE (Internal Combustion Engine): Petrol + Diesel. PHEV: Plug-in-hybrid electric vehicle. HEV: Hybrid electric vehicle.</p>
+
         </div>
-        <div class="right-bottom">
-          <h3 class="chart-title accent-blue">Population over time</h3>
-          <div class="flourish-chart-wrap">
-            <div class="flourish-embed" data-src="visualisation/29625065" style="width:100%;"></div>
+
+        <div class="historical-col">
+          <div class="historical-grid">
+            <div class="right-top">
+              <div class="flourish-chart-wrap">
+                <div class="flourish-embed" data-src="visualisation/29683258" style="width:100%;"></div>
+              </div>
+            </div>
+            <div class="right-bottom">
+              <div class="flourish-chart-wrap">
+                <div class="flourish-embed" data-src="visualisation/29683832" style="width:100%;"></div>
+              </div>
+            </div>
+            <div class="right-top">
+              <div class="flourish-chart-wrap">
+                <div class="flourish-embed" data-src="visualisation/29683569" style="width:100%;"></div>
+              </div>
+            </div>
+            <div class="right-bottom">
+              <div class="flourish-chart-wrap">
+                <div class="flourish-embed" data-src="visualisation/29685761" style="width:100%;"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="full-width box">
-        <h3 class="chart-title accent-violet">Job roles by sector</h3>
-        <p class="chart-subtitle">Headcount by role across four sectors, UK and Germany.</p>
-        <div class="jobs-layout">
-          <div class="flourish-chart-wrap">
-            <div class="flourish-embed" data-src="visualisation/29637177" style="width:100%;"></div>
-          </div>
-          <div id="jobs-table-container"></div>
-        </div>
+      <div class="logo-row">
+        <img class="te-logo" src="https://images.jifo.co/17001966_1715009749076.png" alt="T&amp;E">
       </div>
 
-      <script src="https://public.flourish.studio/resources/embed.js"></script>
+    </section>
 
-      <div class="source">
-        <p>Sources: World Bank regional population data, 1900&ndash;2020 (<code>population.csv</code>); job-role headcount survey (<code>job_roles.csv</code>).</p>
-      </div>
-    </div>
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
 
-    <script src="app.js?v=3"></script>
+    <script src="app.js?v=4"></script>
 
   </div>
 </body>

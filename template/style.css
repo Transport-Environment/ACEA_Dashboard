@@ -1,18 +1,29 @@
 @import url("https://use.typekit.net/pnq5gyb.css");
 
 :root {
-  --surface-1: #fcfcfb;
-  --text-primary: #0b0b0b;
+  --brand-white: #ffffff;
+  --brand-charcoal: #1c1c1c;
+  --brand-orange: #ff8754;
+  --brand-light-orange: #fbf5f0;
+  --brand-pink: #c2447a;
+  --brand-blue: #4d45ff;
+  --brand-light-grey: #a5a5a5;
+  --brand-peach: #f0dccd;
+  --brand-green: #039961;
+
+  --surface-1: var(--brand-light-orange);
+  --surface-card: #ffffff;
+  --text-primary: var(--brand-charcoal);
   --text-secondary: #52514e;
-  --text-muted: #898781;
-  --grid-line: #e1e0d9;
-  --series-1: #2a78d6;
-  --series-2: #1baf7a;
-  --series-3: #eda100;
+  --text-muted: var(--brand-light-grey);
+  --grid-line: #e5ddd3;
+  --series-1: var(--brand-blue);
+  --series-2: var(--brand-green);
+  --series-3: var(--brand-orange);
   --series-4: #008300;
-  --series-5: #4a3aa7;
+  --series-5: var(--brand-pink);
   --series-6: #e34948;
-  --series-7: #e87ba4;
+  --series-7: var(--brand-light-blue, #b4d8f4);
 }
 #hero-value, #hero-value-2 {
   font-size: 2.6rem;
@@ -42,16 +53,16 @@
   margin: 0 0 4px 0;
 }
 .chart-title.neutral {
-  background-color: #F6F2EE;
+  background-color: var(--surface-1);
   color: var(--text-secondary);
 }
 .chart-title.accent-blue {
-  background-color: rgba(42, 120, 214, 0.15);
-  color: #184f95;
+  background-color: rgba(77, 69, 255, 0.12);
+  color: var(--brand-blue);
 }
 .chart-title.accent-violet {
-  background-color: rgba(74, 58, 167, 0.15);
-  color: #4a3aa7;
+  background-color: rgba(194, 68, 122, 0.12);
+  color: var(--brand-pink);
 }
 .chart-subtitle {
   color: var(--text-secondary);
@@ -60,7 +71,7 @@
 }
 
 .full-width {
-  background-color: #F2EBE5;
+  background-color: transparent;
   border-radius: 10px;
   padding: 16px 20px;
   margin-top: 10px;
@@ -131,7 +142,7 @@ body {
 
 
 #main-code {
-    background-color: #F8F3EF;
+    background-color: var(--surface-1);
    width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -139,7 +150,7 @@ body {
 }
 
 .main-content {
-    background-color: #F8F3EF;
+    background-color: var(--surface-1);
     overflow-x: hidden;
 }
 .cell-body{
@@ -149,25 +160,28 @@ td.td {
     height: auto!important;
 }
 .page-title{
-
-    margin-left: 2%;
-     margin-top: 2%;
+    background-color: var(--brand-peach);
+    border-radius: 20px;
+    padding: 32px 5%;
+    margin: 0 2% 20px 2%;
 }
 h1 {
-    font-size: 2.1rem;
-    color: black;
-    letter-spacing: 1px;
+    font-size: 2.6rem;
+    color: var(--brand-charcoal);
+    letter-spacing: -0.01em;
     text-align: left;
     font-family: "effra", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     margin: 0;
     line-height: 100%;
-    
+
 }
 
 .page-title p{
-         line-height: 120%;
+         line-height: 130%;
              font-size: 1.1rem;
+             color: var(--text-secondary);
+             max-width: 640px;
 
 
 }
@@ -205,7 +219,7 @@ section.title {
     text-align: center;
     display: grid;
     padding: 2%;
-    background-color: #F8F3EF;
+    background-color: var(--surface-1);
     border-radius: 10px 10px 0px 0px;
     gap: 10px;
     justify-content: left;
@@ -278,7 +292,7 @@ section.title {
 .source p{
     font-size:1em;
     text-align: left;
-    color:#7d7d7d;
+    color: var(--text-muted);
     font-weight: 400;
 }
 
@@ -426,7 +440,7 @@ section.title {
     overflow: hidden;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
 }
 
 
@@ -453,14 +467,14 @@ section.title {
     overflow: hidden;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
 }
 
 
 
 .flourish-embed.flourish-table {
 
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
     border-radius: 10px;
     padding: 10px;
 
@@ -476,7 +490,7 @@ section.title {
 
 .flourish-embed.flourish-scatter {
     border-radius: 10px;
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
 
     padding: 10px;
 }
@@ -488,7 +502,7 @@ padding-top: 10px;
 
 .wrapper__number {
     border-radius: 10px;
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
 
 }
 
@@ -508,7 +522,7 @@ grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 .left-top {
     grid-column: 1;
     grid-row: 1;
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
     border-radius: 10px;
     /* display: flex; */
     align-items: center;
@@ -532,7 +546,7 @@ grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 .left-bottom {
     grid-column: 2;
     grid-row: 1;
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -584,20 +598,20 @@ grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 
 }
 .right-top{
-        background-color: #F2EBE5;
+        background-color: var(--surface-card);
          border-radius: 10px;
          min-width: 0;
 
 }
 .right-bottom{
-        background-color: #F2EBE5;
+        background-color: var(--surface-card);
          border-radius: 10px;
          min-width: 0;
 
 }
 .center {
     gap: 10px;
-    background-color: #F2EBE5;
+    background-color: var(--surface-card);
     border-radius: 10px;
 }
 
@@ -900,4 +914,152 @@ font-size: 0.6rem;
 }
 
 
+}
+
+/* --- Dashboard-specific layout (mirrors T&E's "Plugged in" EV market watch) --- */
+
+.eyebrow-tick {
+    display: block;
+    width: 40px;
+    height: 6px;
+    background-color: var(--brand-pink);
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+
+.hero-title-italic {
+    font-style: italic;
+    font-weight: 900;
+}
+
+.landing-section .page-title p {
+    max-width: 760px;
+}
+
+.landing-section .page-title p + p {
+    margin-top: 8px;
+}
+
+.landing-section .page-title p.updated-note {
+    font-style: italic;
+    margin-top: 16px;
+}
+
+.section-header {
+    padding: 0 2%;
+    margin-bottom: 10px;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin: 0;
+    line-height: 100%;
+}
+
+.stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.stat-box {
+    background-color: var(--surface-card);
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+
+.stat-box h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin: 0 0 10px 0;
+    font-family: "effra", sans-serif;
+}
+
+.stat-line {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.stat-line .stat-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    min-width: 44px;
+}
+
+.stat-line.bev .stat-value { color: var(--brand-blue); }
+.stat-line.ice .stat-value { color: var(--brand-charcoal); }
+
+.footnote {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+    margin-top: 16px;
+}
+
+.te-logo {
+    height: 48px;
+    display: block;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+.country-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+
+.historical-col {
+    border-left: 1px solid var(--grid-line);
+    padding-left: 20px;
+}
+
+.historical-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.historical-grid .right-top,
+.historical-grid .right-bottom {
+    padding: 12px 14px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+.historical-grid .flourish-chart-wrap {
+    height: 100%;
+}
+
+.historical-grid .flourish-embed,
+.historical-grid .flourish-embed iframe {
+    height: 100% !important;
+}
+
+@media (max-width: 860px) {
+    .country-grid,
+    .historical-grid,
+    .stat-row {
+        grid-template-columns: 1fr;
+    }
+    .historical-col {
+        border-left: none;
+        border-top: 1px solid var(--grid-line);
+        padding-left: 0;
+        padding-top: 20px;
+    }
 }
