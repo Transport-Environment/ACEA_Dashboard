@@ -1037,17 +1037,6 @@ font-size: 0.6rem;
 .historical-grid .right-top,
 .historical-grid .right-bottom {
     padding: 12px 14px;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-}
-
-.historical-grid .flourish-chart-wrap {
-    height: 100%;
-}
-
-.historical-grid .flourish-embed,
-.historical-grid .flourish-embed iframe {
-    height: 100% !important;
 }
 
 @media (max-width: 860px) {
