@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://use.typekit.net/pnq5gyb.css">
+  <script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css?v=7">
+</head>
+
+<body id="main-code">
+  <div id="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+
+  <div class="main-content">
+
+    <div class="page-title">
+      <h1>Global population by region, 1900&ndash;2020</h1>
+      <p>Population has grown more than four-fold since 1900 across these seven World Bank regions, with the fastest growth concentrated in East Asia Pacific and South Asia.</p>
+    </div>
+
+    <div id="dataContainer">
+      <div class="wrapper__25_number">
+        <div class="left-top box">
+          <h3 class="chart-title neutral">World total, 2020</h3>
+          <div id="hero-value"></div>
+          <p id="hero-sub"></p>
+        </div>
+        <div class="left-bottom box">
+          <h3 class="chart-title neutral">Fastest-growing region</h3>
+          <div id="hero-value-2"></div>
+          <p id="hero-sub-2"></p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right-top">
+          <h3 class="chart-title accent-blue">Latest snapshot (2020)</h3>
+          <div id="table-container"></div>
+        </div>
+        <div class="right-bottom">
+          <h3 class="chart-title accent-blue">Population over time</h3>
+          <div class="flourish-chart-wrap">
+            <div class="flourish-embed" data-src="visualisation/29625065" style="width:100%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="full-width box">
+        <h3 class="chart-title accent-violet">Job roles by sector</h3>
+        <p class="chart-subtitle">Headcount by role across four sectors, UK and Germany.</p>
+        <div class="jobs-layout">
+          <div class="flourish-chart-wrap">
+            <div class="flourish-embed" data-src="visualisation/29637177" style="width:100%;"></div>
+          </div>
+          <div id="jobs-table-container"></div>
+        </div>
+      </div>
+
+      <script src="https://public.flourish.studio/resources/embed.js"></script>
+
+      <div class="source">
+        <p>Sources: World Bank regional population data, 1900&ndash;2020 (<code>population.csv</code>); job-role headcount survey (<code>job_roles.csv</code>).</p>
+      </div>
+    </div>
+
+    <script src="app.js?v=3"></script>
+
+  </div>
+</body>
+
+</html>
