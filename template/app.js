@@ -81,6 +81,13 @@ async function initLiveCharts() {
       ).then((r) => r.json());
 
       chart.options = { ...template, api_url: "/flourish", container: chart.container };
+      // The account's company theme injects a header accent bar + footer logo on every
+      // chart rendered via the Live API (not shown on Flourish's own public showcase page).
+      // We show a single T&E logo for the whole section ourselves, so disable both here.
+      chart.options.state = {
+        ...chart.options.state,
+        layout: { ...chart.options.state.layout, header_logo_enabled: false, footer_logo_enabled: false },
+      };
       chart.visual = new Flourish.Live(chart.options);
       hideChartOwnControl(chart.container);
     })
