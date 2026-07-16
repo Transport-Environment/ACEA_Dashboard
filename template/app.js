@@ -48,9 +48,10 @@ let growthRows = [];
 let fleetRows = [];
 
 async function loadCountryDataSources() {
+  const REPO_RAW = "https://raw.githubusercontent.com/Transport-Environment/ACEA_Dashboard/main/";
   const [growthText, fleetText] = await Promise.all([
-    fetch("../country_growth.csv").then((r) => r.text()),
-    fetch("../EAFO_FLEET_NEW.csv").then((r) => r.text()),
+    fetch(`${REPO_RAW}country_growth.csv`).then((r) => r.text()),
+    fetch(`${REPO_RAW}EAFO_FLEET_NEW.csv`).then((r) => r.text()),
   ]);
   growthRows = parseDelimitedCSV(growthText, ",");
   fleetRows = parseDelimitedCSV(fleetText, ";");
