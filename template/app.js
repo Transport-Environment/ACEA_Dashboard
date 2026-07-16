@@ -82,8 +82,34 @@ async function initLiveCharts() {
 
       chart.options = { ...template, api_url: "/flourish", container: chart.container };
       chart.visual = new Flourish.Live(chart.options);
+      hideChartOwnControl(chart.container);
     })
   );
+}
+
+// Each chart still renders its own row-filter dropdown (stale once we drive
+// row_filter ourselves via the shared selector above), so hide it. The chart
+// renders into a same-origin iframe (served through our own /flourish proxy),
+// so we can reach into it and inject CSS.
+function hideChartOwnControl(container) {
+  const iframe = document.querySelector(`${container} iframe`);
+  if (!iframe) return;
+
+  const inject = () => {
+    try {
+      const doc = iframe.contentDocument;
+      if (!doc || !doc.head || doc.getElementById("hide-fl-controls")) return;
+      const style = doc.createElement("style");
+      style.id = "hide-fl-controls";
+      style.textContent = ".fl-control { display: none !important; }";
+      doc.head.appendChild(style);
+    } catch (err) {
+      // same-origin access failed; leave the chart's own control visible
+    }
+  };
+
+  iframe.addEventListener("load", inject);
+  inject();
 }
 
 function applyLiveCountryFilter(country) {
