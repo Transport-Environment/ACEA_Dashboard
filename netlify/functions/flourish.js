@@ -12,7 +12,7 @@ exports.handler = async (event) => {
     };
   }
 
-  const path = event.path.replace(/^\/\.netlify\/functions\/flourish/, "");
+  const path = event.path.replace(/^(\/\.netlify\/functions)?\/flourish/, "");
 
   const qs = new URLSearchParams(event.queryStringParameters || {});
   qs.set("api_key", apiKey);
