@@ -34,6 +34,47 @@ const COUNTRIES = [
   "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom",
 ];
 
+const COUNTRY_ISO_CODES = {
+  "European Union": "EU",
+  Austria: "AT",
+  Belgium: "BE",
+  Bulgaria: "BG",
+  Croatia: "HR",
+  Cyprus: "CY",
+  "Czech Rep.": "CZ",
+  Denmark: "DK",
+  Estonia: "EE",
+  Finland: "FI",
+  France: "FR",
+  Germany: "DE",
+  Greece: "GR",
+  Hungary: "HU",
+  Ireland: "IE",
+  Italy: "IT",
+  Latvia: "LV",
+  Lithuania: "LT",
+  Luxembourg: "LU",
+  Netherlands: "NL",
+  Norway: "NO",
+  Poland: "PL",
+  Portugal: "PT",
+  Romania: "RO",
+  Slovakia: "SK",
+  Slovenia: "SI",
+  Spain: "ES",
+  Sweden: "SE",
+  "United Kingdom": "GB",
+};
+
+// Regional-indicator flag emoji from a 2-letter ISO code (works for "EU" too).
+function flagEmoji(isoCode) {
+  return isoCode
+    .toUpperCase()
+    .split("")
+    .map((char) => String.fromCodePoint(127397 + char.charCodeAt(0)))
+    .join("");
+}
+
 // Each entry gets `.options` (the fetched Flourish template + our overrides) and
 // `.visual` (the live Flourish.Live instance) attached once initLiveCharts() runs.
 const LIVE_CHARTS = [
@@ -137,7 +178,7 @@ async function initCountrySelector() {
   const select = document.getElementById("country-select");
   if (!select) return;
 
-  select.innerHTML = COUNTRIES.map((c) => `<option value="${c}">${c}</option>`).join("");
+  select.innerHTML = COUNTRIES.map((c) => `<option value="${c}">${flagEmoji(COUNTRY_ISO_CODES[c])} ${c}</option>`).join("");
 
   await Promise.all([initLiveCharts(), loadCountryDataSources()]);
 
