@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/flourish/*"
+  to = "/.netlify/functions/flourish/:splat"
+  status = 200

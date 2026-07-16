@@ -52,7 +52,7 @@
 
       <div class="section-header">
         <span class="eyebrow-tick"></span>
-        <h2 id="country-name">European Union</h2>
+        <select id="country-select" class="country-select" aria-label="Select a country"></select>
       </div>
 
       <div class="country-grid">
@@ -73,7 +73,7 @@
 
           <div class="right-top" style="margin-top:10px;">
             <div class="flourish-chart-wrap">
-              <div class="flourish-embed" data-src="visualisation/29683026" style="width:100%;"></div>
+              <div id="chart-bev-registrations" class="flourish-live-chart"></div>
             </div>
           </div>
 
@@ -85,22 +85,22 @@
           <div class="historical-grid">
             <div class="right-top">
               <div class="flourish-chart-wrap">
-                <div class="flourish-embed" data-src="visualisation/29683258" style="width:100%;"></div>
+                <div id="chart-fuel-share" class="flourish-live-chart"></div>
               </div>
             </div>
             <div class="right-bottom">
               <div class="flourish-chart-wrap">
-                <div class="flourish-embed" data-src="visualisation/29683832" style="width:100%;"></div>
+                <div id="chart-fuel-type" class="flourish-live-chart"></div>
               </div>
             </div>
             <div class="right-top">
               <div class="flourish-chart-wrap">
-                <div class="flourish-embed" data-src="visualisation/29683569" style="width:100%;"></div>
+                <div id="chart-absolute-registrations" class="flourish-live-chart"></div>
               </div>
             </div>
             <div class="right-bottom">
               <div class="flourish-chart-wrap">
-                <div class="flourish-embed" data-src="visualisation/29685761" style="width:100%;"></div>
+                <div id="chart-plugin-share" class="flourish-live-chart"></div>
               </div>
             </div>
           </div>
@@ -114,8 +114,9 @@
     </section>
 
     <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <script src="https://cdn.flourish.rocks/flourish-live-v5.min.js"></script>
 
-    <script src="app.js?v=5"></script>
+    <script src="app.js?v=6"></script>
 
   </div>
 </body>
