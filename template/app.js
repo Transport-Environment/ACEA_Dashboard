@@ -66,13 +66,17 @@ const COUNTRY_ISO_CODES = {
   "United Kingdom": "GB",
 };
 
-// Regional-indicator flag emoji from a 2-letter ISO code (works for "EU" too).
-function flagEmoji(isoCode) {
-  return isoCode
-    .toUpperCase()
-    .split("")
-    .map((char) => String.fromCodePoint(127397 + char.charCodeAt(0)))
-    .join("");
+// Regional-indicator flag emoji render as plain two-letter text on Windows (no
+// flag glyphs in the default system font), so we use real flag images instead
+// of embedding emoji in the <option> text (which can't hold images anyway).
+const FLAG_CDN = "https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/flags/4x3/";
+
+function updateCountryFlag(country) {
+  const flagImg = document.getElementById("country-flag");
+  const isoCode = COUNTRY_ISO_CODES[country];
+  if (!flagImg || !isoCode) return;
+  flagImg.src = `${FLAG_CDN}${isoCode.toLowerCase()}.svg`;
+  flagImg.alt = `${country} flag`;
 }
 
 // Each entry gets `.options` (the fetched Flourish template + our overrides) and
@@ -178,7 +182,7 @@ async function initCountrySelector() {
   const select = document.getElementById("country-select");
   if (!select) return;
 
-  select.innerHTML = COUNTRIES.map((c) => `<option value="${c}">${flagEmoji(COUNTRY_ISO_CODES[c])} ${c}</option>`).join("");
+  select.innerHTML = COUNTRIES.map((c) => `<option value="${c}">${c}</option>`).join("");
 
   await Promise.all([initLiveCharts(), loadCountryDataSources()]);
 
@@ -188,6 +192,7 @@ async function initCountrySelector() {
 
   applyLiveCountryFilter(initialCountry);
   populateCountryStats(initialCountry);
+  updateCountryFlag(initialCountry);
 
   if (requestedCountry) {
     document.getElementById("country-eu").scrollIntoView({ behavior: "smooth" });
@@ -196,6 +201,7 @@ async function initCountrySelector() {
   select.addEventListener("change", () => {
     applyLiveCountryFilter(select.value);
     populateCountryStats(select.value);
+    updateCountryFlag(select.value);
   });
 }
 

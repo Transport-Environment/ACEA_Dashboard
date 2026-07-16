@@ -1008,6 +1008,20 @@ font-size: 0.6rem;
     line-height: 100%;
 }
 
+.country-select-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.country-flag {
+    width: 48px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
 .country-select {
     font-family: "effra", sans-serif;
     font-size: 2rem;
@@ -1052,7 +1066,7 @@ font-size: 0.6rem;
 
 .stat-line {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 8px;
     font-size: 1.4rem;
     font-weight: 700;
@@ -1060,8 +1074,13 @@ font-size: 0.6rem;
 }
 
 .stat-line .stat-icon {
-    font-size: 1.1rem;
-    line-height: 1;
+    display: inline-flex;
+    color: var(--text-secondary);
+}
+
+.stat-line .stat-icon svg {
+    width: 30px;
+    height: 30px;
 }
 
 .stat-line .stat-label {
@@ -1071,6 +1090,7 @@ font-size: 0.6rem;
     min-width: 44px;
 }
 
+.stat-line.bev .stat-icon { color: var(--brand-green); }
 .stat-line.bev .stat-value { color: var(--brand-blue); }
 .stat-line.ice .stat-value { color: var(--brand-charcoal); }
 
@@ -1108,7 +1128,6 @@ font-size: 0.6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-    margin-top: 10px;
 }
 
 .historical-grid .right-top,
