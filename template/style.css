@@ -221,6 +221,7 @@ h1 {
          line-height: 130%;
              font-size: 1.1rem;
              color: var(--text-secondary);
+             text-align: right;
 
 
 }
