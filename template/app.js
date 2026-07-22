@@ -71,6 +71,10 @@ const COUNTRY_ISO_CODES = {
 // of embedding emoji in the <option> text (which can't hold images anyway).
 const FLAG_CDN = "https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/flags/4x3/";
 
+// Data files that live at the repo root (outside this template/ folder that Netlify
+// publishes) are fetched straight from GitHub instead of a relative path.
+const REPO_RAW = "https://raw.githubusercontent.com/Transport-Environment/ACEA_Dashboard/main/";
+
 function updateCountryFlag(country) {
   const flagImg = document.getElementById("country-flag");
   const isoCode = COUNTRY_ISO_CODES[country];
@@ -90,13 +94,13 @@ const LIVE_CHARTS = [
 ];
 
 // Loads the landing page title/text from a plain-text file so it can be edited
-// (updated figures, wording) without touching HTML. See template/landing-copy.txt
-// for the file's format rules.
+// (updated figures, wording) without touching HTML. See landing_text.txt (repo
+// root) for the file's format rules.
 async function loadLandingCopy() {
   const container = document.getElementById("landing-copy");
   if (!container) return;
 
-  const raw = await fetch("landing-copy.txt").then((r) => r.text());
+  const raw = await fetch(`${REPO_RAW}landing_text.txt`).then((r) => r.text());
   const text = raw.split("\n").filter((line) => !line.trim().startsWith("#")).join("\n");
   const blocks = text.trim().split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
   if (blocks.length === 0) return;
@@ -114,7 +118,6 @@ let growthRows = [];
 let fleetRows = [];
 
 async function loadCountryDataSources() {
-  const REPO_RAW = "https://raw.githubusercontent.com/Transport-Environment/ACEA_Dashboard/main/";
   const [growthText, fleetText] = await Promise.all([
     fetch(`${REPO_RAW}country_growth.csv`).then((r) => r.text()),
     fetch(`${REPO_RAW}EAFO_FLEET_NEW.csv`).then((r) => r.text()),
