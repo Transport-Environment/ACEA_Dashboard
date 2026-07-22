@@ -13,6 +13,7 @@
 
   --surface-1: var(--brand-light-orange);
   --surface-card: #ffffff;
+  --surface-chart: #f2ebe5;
   --text-primary: var(--brand-charcoal);
   --text-secondary: #52514e;
   --text-muted: var(--brand-light-grey);
@@ -166,6 +167,7 @@ td.td {
     background-color: var(--brand-peach);
     border-radius: 20px;
     padding: 32px 5%;
+    margin: 0 2% 20px 2%;
 }
 
 .landing-grid {
@@ -174,13 +176,6 @@ td.td {
     align-items: stretch;
     gap: 20px;
     margin: 0 2% 20px 2%;
-}
-
-.landing-left {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    min-width: 0;
 }
 
 .landing-chart {
@@ -226,7 +221,6 @@ h1 {
          line-height: 130%;
              font-size: 1.1rem;
              color: var(--text-secondary);
-             max-width: 640px;
 
 
 }
@@ -643,13 +637,13 @@ grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 
 }
 .right-top{
-        background-color: var(--surface-card);
+        background-color: var(--surface-chart);
          border-radius: 10px;
          min-width: 0;
 
 }
 .right-bottom{
-        background-color: var(--surface-card);
+        background-color: var(--surface-chart);
          border-radius: 10px;
          min-width: 0;
 
@@ -983,7 +977,7 @@ font-size: 0.6rem;
 }
 
 .landing-section .page-title p {
-    max-width: 760px;
+    max-width: none;
 }
 
 .landing-section .page-title p + p {
@@ -1028,14 +1022,15 @@ font-size: 0.6rem;
     font-weight: 800;
     color: var(--text-primary);
     line-height: 100%;
-    border: none;
-    background-color: transparent;
+    border: 2px solid var(--brand-blue);
+    border-radius: 12px;
+    background-color: var(--surface-card);
     appearance: none;
     cursor: pointer;
-    padding: 0 40px 0 0;
+    padding: 8px 48px 8px 16px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' fill='none' viewBox='0 0 24 24'%3E%3Cpath stroke='%234D45FF' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
     background-size: 26px;
-    background-position: right center;
+    background-position: right 12px center;
     background-repeat: no-repeat;
 }
 
