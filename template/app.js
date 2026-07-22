@@ -89,6 +89,27 @@ const LIVE_CHARTS = [
   { id: "29685761", container: "#chart-plugin-share" },
 ];
 
+// Loads the landing page title/text from a plain-text file so it can be edited
+// (updated figures, wording) without touching HTML. See template/landing-copy.txt
+// for the file's format rules.
+async function loadLandingCopy() {
+  const container = document.getElementById("landing-copy");
+  if (!container) return;
+
+  const raw = await fetch("landing-copy.txt").then((r) => r.text());
+  const text = raw.split("\n").filter((line) => !line.trim().startsWith("#")).join("\n");
+  const blocks = text.trim().split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
+  if (blocks.length === 0) return;
+
+  const [titleBlock, ...paragraphBlocks] = blocks;
+  const titleHtml = titleBlock.replace(/\*(.+?)\*/, '<span class="hero-title-italic">$1</span>');
+  const paragraphsHtml = paragraphBlocks
+    .map((p, i) => `<p${i === paragraphBlocks.length - 1 ? ' class="updated-note"' : ""}>${p}</p>`)
+    .join("\n");
+
+  container.innerHTML = `<h1>${titleHtml}</h1>\n${paragraphsHtml}`;
+}
+
 let growthRows = [];
 let fleetRows = [];
 
@@ -207,5 +228,6 @@ async function initCountrySelector() {
 
 window.addEventListener("load", () => {
   hideLoader();
+  loadLandingCopy();
   initCountrySelector();
 });

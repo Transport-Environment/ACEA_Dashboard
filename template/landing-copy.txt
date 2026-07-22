@@ -1,0 +1,15 @@
+# Landing page title + text box (top of the dashboard).
+# Edit the text/figures below - saving this file is enough, no HTML/JS changes needed.
+# Format rules:
+#   - Lines starting with "#" are comments and are ignored.
+#   - The first block is the title. Wrap a phrase in *asterisks* to italicize it.
+#   - A blank line separates each paragraph.
+#   - The LAST paragraph is shown as the small italic "updated" note at the bottom.
+
+*Plugged in:* T&E's EV market watch
+
+In 2026, battery electric vehicle sales reached record levels across Europe, with 23 out of 27 EU countries achieving their highest-ever yearly BEV market share. On average, the BEV share increased by two percentage points compared with 2025, rising from 17.4% to 19.4%. Denmark stands out in particular, reaching 80% market share, an increase of 12 percentage points in one year.
+
+In quarter 1 2026, battery electric vehicles in the EU had a market share of 19%.
+
+This dashboard is updated every quarter and now includes Q1 2026 data.
