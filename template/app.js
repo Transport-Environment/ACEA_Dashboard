@@ -91,6 +91,7 @@ const LIVE_CHARTS = [
   { id: "29683832", container: "#chart-fuel-type" },
   { id: "29683569", container: "#chart-absolute-registrations" },
   { id: "29685761", container: "#chart-plugin-share" },
+  { id: "29760251", container: "#chart-quarterly-powertrain" },
 ];
 
 // Loads the landing page title/text from a plain-text file so it can be edited
