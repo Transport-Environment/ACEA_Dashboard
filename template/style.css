@@ -1019,7 +1019,7 @@ font-size: 0.6rem;
 
 .country-select {
     font-family: "effra", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--text-primary);
     line-height: 100%;
@@ -1033,6 +1033,11 @@ font-size: 0.6rem;
     background-size: 26px;
     background-position: right 12px center;
     background-repeat: no-repeat;
+}
+
+.country-select option {
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .country-select:focus {
