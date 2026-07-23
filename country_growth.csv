@@ -1,30 +1,30 @@
 Region,BEV_growth,ICE_growth
 Austria,27.0,-2.6
 Belgium,8.2,-4.0
-Bulgaria,78.8,-0.5
+Bulgaria,95.8,-0.6
 Croatia,349.7,-17.4
 Cyprus,23.9,-32.3
-Czech Rep.,24.9,0.1
-Denmark,41.2,-53.1
+Czech Rep.,24.9,0.0
+Denmark,41.2,-53.0
 Estonia,39.0,49.5
-European Union,40.4,-17.1
-Finland,39.9,-31.9
+European Union,40.5,-17.0
+Finland,39.8,-32.0
 France,62.9,-36.4
 Germany,48.0,-14.9
 Greece,23.9,-19.1
-Hungary,43.6,-5.7
-Ireland,47.9,-20.5
-Italy,77.6,-19.6
-Latvia,12.9,-1.0
+Hungary,43.7,-5.8
+Ireland,47.9,-19.8
+Italy,77.7,-19.4
+Latvia,12.3,-1.4
 Lithuania,53.7,-11.8
 Luxembourg,18.1,-9.3
-Netherlands,-0.3,-46.2
+Netherlands,-0.1,-45.9
 Norway,1.3,-40.8
-Poland,15.6,-6.0
+Poland,15.6,-3.4
 Portugal,38.7,-17.5
 Romania,72.5,-28.0
 Slovakia,33.4,-11.5
-Slovenia,124.5,-2.7
-Spain,36.7,-20.3
-Sweden,18.4,-6.1
+Slovenia,124.5,-1.3
+Spain,36.7,-20.4
+Sweden,18.4,-10.5
 United Kingdom,26.6,-12.1
