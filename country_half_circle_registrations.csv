@@ -7,10 +7,10 @@ BEV,Cyprus,911,12.6
 BEV,Czech Rep.,8630,6.6
 BEV,Denmark,80707,79.9
 BEV,Estonia,617,6.2
-BEV,European Union,546937,10.5
+BEV,European Union,1220890,20.7
 BEV,Finland,17798,47.8
-BEV,France,112083,15.4
-BEV,Germany,159630,12.5
+BEV,France,241562,28.2
+BEV,Germany,368006,24.8
 BEV,Greece,5284,6.3
 BEV,Hungary,7497,10.0
 BEV,Ireland,20159,23.7
@@ -27,7 +27,7 @@ BEV,Slovakia,2678,6.2
 BEV,Slovenia,6062,16.5
 BEV,Spain,63201,9.8
 BEV,Sweden,58801,41.5
-BEV,United Kingdom,137614,13.9
+BEV,United Kingdom,284579,25.0
 PHEV,Austria,18023,11.0
 PHEV,Belgium,13038,5.7
 PHEV,Bulgaria,480,1.8
@@ -36,10 +36,10 @@ PHEV,Cyprus,411,5.7
 PHEV,Czech Rep.,6517,5.0
 PHEV,Denmark,706,0.7
 PHEV,Estonia,864,8.7
-PHEV,European Union,577735,11.1
+PHEV,European Union,577735,9.8
 PHEV,Finland,4753,12.8
-PHEV,France,47865,6.6
-PHEV,Germany,163793,12.8
+PHEV,France,47865,5.6
+PHEV,Germany,163793,11.0
 PHEV,Greece,5198,6.2
 PHEV,Hungary,5988,8.0
 PHEV,Ireland,12530,14.7
@@ -56,7 +56,7 @@ PHEV,Slovakia,1886,4.3
 PHEV,Slovenia,1354,3.7
 PHEV,Spain,77941,12.0
 PHEV,Sweden,34930,24.6
-PHEV,United Kingdom,148132,14.9
+PHEV,United Kingdom,148132,13.0
 HEV,Austria,49751,30.2
 HEV,Belgium,28285,12.3
 HEV,Bulgaria,1607,6.2
@@ -65,10 +65,10 @@ HEV,Cyprus,3642,50.3
 HEV,Czech Rep.,31060,23.9
 HEV,Denmark,11702,11.6
 HEV,Estonia,5820,58.3
-HEV,European Union,2198148,42.1
+HEV,European Union,2198148,37.3
 HEV,Finland,10377,27.9
-HEV,France,388283,53.4
-HEV,Germany,427633,33.5
+HEV,France,388283,45.3
+HEV,Germany,427633,28.8
 HEV,Greece,47551,56.6
 HEV,Hungary,38508,51.4
 HEV,Ireland,23599,27.7
@@ -85,7 +85,7 @@ HEV,Slovakia,15228,35.0
 HEV,Slovenia,6927,18.9
 HEV,Spain,306666,47.3
 HEV,Sweden,12101,8.5
-HEV,United Kingdom,428999,43.3
+HEV,United Kingdom,428999,37.7
 Gas/Other,Austria,2,0.0
 Gas/Other,Belgium,2144,0.9
 Gas/Other,Bulgaria,29,0.1
@@ -94,9 +94,9 @@ Gas/Other,Cyprus,0,0.0
 Gas/Other,Czech Rep.,2739,2.1
 Gas/Other,Denmark,2,0.0
 Gas/Other,Estonia,0,0.0
-Gas/Other,European Union,151165,2.9
+Gas/Other,European Union,151165,2.6
 Gas/Other,Finland,0,0.0
-Gas/Other,France,29173,4.0
+Gas/Other,France,29173,3.4
 Gas/Other,Germany,6724,0.5
 Gas/Other,Greece,2532,3.0
 Gas/Other,Hungary,392,0.5
@@ -123,10 +123,10 @@ Diesel,Cyprus,111,1.5
 Diesel,Czech Rep.,23819,18.3
 Diesel,Denmark,2327,2.3
 Diesel,Estonia,1122,11.2
-Diesel,European Union,439592,8.4
+Diesel,European Union,439592,7.5
 Diesel,Finland,1309,3.5
-Diesel,France,22146,3.0
-Diesel,Germany,193157,15.1
+Diesel,France,22146,2.6
+Diesel,Germany,193157,13.0
 Diesel,Greece,2074,2.5
 Diesel,Hungary,7124,9.5
 Diesel,Ireland,10961,12.9
@@ -143,7 +143,7 @@ Diesel,Slovakia,5277,12.1
 Diesel,Slovenia,4545,12.4
 Diesel,Spain,23815,3.7
 Diesel,Sweden,9020,6.4
-Diesel,United Kingdom,20422,2.1
+Diesel,United Kingdom,20422,1.8
 Petrol,Austria,40509,24.6
 Petrol,Belgium,97538,42.3
 Petrol,Bulgaria,17808,68.6
@@ -152,10 +152,10 @@ Petrol,Cyprus,2169,29.9
 Petrol,Czech Rep.,57043,43.9
 Petrol,Denmark,5591,5.5
 Petrol,Estonia,1556,15.6
-Petrol,European Union,1309153,25.1
+Petrol,European Union,1309153,22.2
 Petrol,Finland,3020,8.1
-Petrol,France,128136,17.6
-Petrol,Germany,325080,25.5
+Petrol,France,128136,14.9
+Petrol,Germany,325080,21.9
 Petrol,Greece,21326,25.4
 Petrol,Hungary,15396,20.6
 Petrol,Ireland,17939,21.1
@@ -172,4 +172,4 @@ Petrol,Slovakia,17532,40.3
 Petrol,Slovenia,17415,47.4
 Petrol,Spain,153508,23.7
 Petrol,Sweden,26375,18.6
-Petrol,United Kingdom,255795,25.8
+Petrol,United Kingdom,255795,22.5
