@@ -92,6 +92,7 @@ const LIVE_CHARTS = [
   { id: "29683569", container: "#chart-absolute-registrations" },
   { id: "29685761", container: "#chart-plugin-share" },
   { id: "29760251", container: "#chart-quarterly-powertrain" },
+  { id: "29771232", container: "#chart-quarterly-powertrain-share" },
 ];
 
 // Loads the landing page title/text from a plain-text file so it can be edited
@@ -198,6 +199,35 @@ function applyLiveCountryFilter(country) {
   });
 }
 
+// Lets the quarterly-chart box switch between the volume and market-share charts, without
+// touching the country selection - both charts are already in LIVE_CHARTS, so both stay
+// filtered to the current country the whole time; this just shows/hides which one is visible.
+function initQuarterlyChartToggle() {
+  const buttons = document.querySelectorAll(".quarterly-toggle-btn");
+  const wraps = document.querySelectorAll(".flourish-chart-wrap[data-view]");
+  if (!buttons.length) return;
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (btn.classList.contains("active")) return;
+      buttons.forEach((b) => b.classList.toggle("active", b === btn));
+
+      let shownWrap;
+      wraps.forEach((w) => {
+        const isShown = w.dataset.view === btn.dataset.view;
+        w.hidden = !isShown;
+        if (isShown) shownWrap = w;
+      });
+
+      // A chart initialized while its container was hidden can render at zero width; force a
+      // resize now that it has real dimensions.
+      const chartDiv = shownWrap && shownWrap.querySelector(".flourish-live-chart");
+      const chart = chartDiv && LIVE_CHARTS.find((c) => c.container === `#${chartDiv.id}`);
+      if (chart && chart.visual) chart.visual.update(chart.options);
+    });
+  });
+}
+
 function countryFromHash() {
   const match = window.location.hash.match(/country=([^&]+)/);
   return match ? decodeURIComponent(match[1]) : null;
@@ -234,4 +264,5 @@ window.addEventListener("load", () => {
   hideLoader();
   loadLandingCopy();
   initCountrySelector();
+  initQuarterlyChartToggle();
 });

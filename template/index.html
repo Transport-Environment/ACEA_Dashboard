@@ -6,7 +6,7 @@
   <title>ACEA EV Dashboard</title>
   <link rel="stylesheet" href="https://use.typekit.net/pnq5gyb.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css?v=22">
+  <link rel="stylesheet" href="style.css?v=23">
 </head>
 
 <body id="main-code">
@@ -103,8 +103,15 @@
       </div>
 
       <div class="right-top" style="margin-top: 20px;">
-        <div class="flourish-chart-wrap">
+        <div class="quarterly-toggle-row" role="tablist" aria-label="Quarterly chart view">
+          <button type="button" class="quarterly-toggle-btn active" data-view="volume">Volumes</button>
+          <button type="button" class="quarterly-toggle-btn" data-view="share">Market share</button>
+        </div>
+        <div class="flourish-chart-wrap" data-view="volume">
           <div id="chart-quarterly-powertrain" class="flourish-live-chart"></div>
+        </div>
+        <div class="flourish-chart-wrap" data-view="share" hidden>
+          <div id="chart-quarterly-powertrain-share" class="flourish-live-chart"></div>
         </div>
       </div>
 
@@ -119,7 +126,7 @@
     <script src="https://public.flourish.studio/resources/embed.js"></script>
     <script src="https://cdn.flourish.rocks/flourish-live-v5.min.js"></script>
 
-    <script src="app.js?v=9"></script>
+    <script src="app.js?v=10"></script>
 
   </div>
 </body>
