@@ -5,14 +5,14 @@ Sweden,58801,41.5
 Netherlands,63776,36.5
 Belgium,83282,36.1
 Luxembourg,7745,29.2
+France,241562,28.2
 Portugal,34706,25.3
+United Kingdom,284579,25.0
+Germany,368006,24.8
 Austria,40060,24.3
 Ireland,20159,23.7
 Slovenia,6062,16.5
-France,112083,13.1
 Cyprus,911,12.6
-United Kingdom,137614,12.1
-Germany,159630,10.8
 Hungary,7497,10.0
 Spain,63201,9.8
 Romania,5522,8.5
@@ -26,5 +26,5 @@ Estonia,617,6.2
 Slovakia,2678,6.2
 Poland,16479,5.3
 Croatia,1781,4.0
-EU27,881563,15.0
-EU27+UK+NO,1090839,15.4
+EU27,1219418,20.7
+EU27+UK+NO,1575659,22.2
