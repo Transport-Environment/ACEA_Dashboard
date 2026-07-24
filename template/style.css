@@ -1090,6 +1090,20 @@ font-size: 0.6rem;
 .historical-grid .right-top,
 .historical-grid .right-bottom {
     padding: 12px 14px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.historical-grid .flourish-chart-wrap {
+    flex: 1;
+    min-height: 0;
+}
+
+.historical-grid .flourish-chart-wrap .flourish-live-chart {
+    height: 100%;
+    min-height: 0;
 }
 
 @media (max-width: 860px) {
