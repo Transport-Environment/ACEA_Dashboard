@@ -1090,6 +1090,9 @@ font-size: 0.6rem;
 .historical-grid .right-top,
 .historical-grid .right-bottom {
     padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (max-width: 860px) {
