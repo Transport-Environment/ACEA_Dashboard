@@ -1095,6 +1095,18 @@ font-size: 0.6rem;
     justify-content: center;
 }
 
+.historical-grid .flourish-chart-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.historical-grid .flourish-live-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 860px) {
     .country-grid,
     .historical-grid,
