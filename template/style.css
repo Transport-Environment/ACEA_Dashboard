@@ -154,8 +154,10 @@ body {
 }
 
 .main-content {
-    background-color: var(--surface-1);
+    background-color: var();
     overflow-x: hidden;
+    margin-tip: 10px;
+    margin-top: 2%;
 }
 .cell-body{
     height:auto!important;
@@ -925,7 +927,6 @@ font-size: 0.6rem;
 }
 
 .section-header {
-    padding: 0 2%;
     margin-bottom: 10px;
 }
 
