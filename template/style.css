@@ -953,7 +953,7 @@ font-size: 0.6rem;
 
 .country-select {
     font-family: "effra", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 800;
     color: var(--text-primary);
     line-height: 100%;
@@ -1106,6 +1106,13 @@ font-size: 0.6rem;
     align-items: center;
     justify-content: center;
     min-height: 350px;
+}
+
+.flourish-chart-wrap[data-view] .flourish-live-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
 }
 
 @media (max-width: 860px) {
