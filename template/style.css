@@ -1075,6 +1075,9 @@ font-size: 0.6rem;
 
 .country-main-col .flourish-chart-wrap .flourish-live-chart {
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .historical-col {
@@ -1106,7 +1109,7 @@ font-size: 0.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 350px;
+    min-height: 330px;
 }
 
 .flourish-chart-wrap[data-view] .flourish-live-chart {
