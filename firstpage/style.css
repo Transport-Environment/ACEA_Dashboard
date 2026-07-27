@@ -44,6 +44,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 0;
+    height: 635px;
+    box-sizing: border-box;
 }
 
 .landing-chart .flourish-chart-wrap {
@@ -51,10 +53,17 @@ body {
     min-height: 0;
 }
 
+.landing-chart .flourish-embed,
+.landing-chart .flourish-embed iframe {
+    height: 100% !important;
+}
+
 .landing-map {
     min-width: 0;
     display: flex;
     flex-direction: column;
+    height: 635px;
+    box-sizing: border-box;
 }
 
 .landing-map .flourish-chart-wrap {
