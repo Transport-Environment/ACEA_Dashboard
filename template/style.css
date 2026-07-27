@@ -1025,7 +1025,7 @@ font-size: 0.6rem;
     min-width: 44px;
 }
 
-.stat-line.bev .stat-icon { color: var(--brand-green); }
+.stat-line.bev .stat-icon { color: var(--brand-blue); }
 .stat-line.bev .stat-value { color: var(--brand-blue); }
 .stat-line.ice .stat-value { color: var(--brand-charcoal); }
 
