@@ -1109,7 +1109,7 @@ font-size: 0.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 330px;
+    min-height: 300px;
 }
 
 .flourish-chart-wrap[data-view] .flourish-live-chart {
