@@ -46,7 +46,7 @@ margin-top: 2%;
     display: flex;
     flex-direction: column;
     min-height: 0;
-    height: 615px;
+    height: 602px;
     box-sizing: border-box;
 }
 
@@ -64,7 +64,7 @@ margin-top: 2%;
     min-width: 0;
     display: flex;
     flex-direction: column;
-    height: 615px;
+    height: 602px;
     box-sizing: border-box;
 }
 
