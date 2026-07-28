@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ACEA EV Dashboard</title>
+  <link rel="stylesheet" href="https://use.typekit.net/pnq5gyb.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css?v=38">
+  <script src="https://www.transportenvironment.org/uploads/code/iframeResizer.contentWindow.js"></script>
+</head>
+
+<body id="main-code">
+  <div id="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+
+  <div class="main-content">
+
+    <div class="page-toggle-row" role="tablist" aria-label="Dashboard view">
+      <button type="button" class="page-toggle-btn active" data-page="landing">Market overview</button>
+      <button type="button" class="page-toggle-btn" data-page="country">Country breakdown</button>
+    </div>
+
+    <section id="landing" class="landing-section">
+
+      <div id="dataContainer">
+        <div class="landing-grid">
+          <div class="right-top landing-chart">
+            <div class="flourish-chart-wrap">
+              <div class="flourish-embed" data-src="visualisation/29681583" style="width:100%;"></div>
+            </div>
+          </div>
+          <div class="right-bottom landing-map">
+            <div class="flourish-chart-wrap">
+              <div class="flourish-embed" data-src="visualisation/29682026" style="width:100%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="logo-row">
+          <img class="te-logo" src="https://images.jifo.co/17001966_1715009749076.png" alt="T&amp;E">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="country-eu" class="full-width box" style="margin: 20px 2% 0 2%;" hidden>
+
+      <div class="section-header">
+        <div class="country-select-row">
+          <img id="country-flag" class="country-flag" alt="">
+          <select id="country-select" class="country-select" aria-label="Select a country"></select>
+        </div>
+      </div>
+
+      <div class="country-grid">
+        <div class="country-main-col">
+
+          <div class="stat-row">
+            <div class="stat-box stat-box-growth">
+              <h4>New cars growth (vs Jan-Jun 2025)</h4>
+              <div class="stat-line bev"><span class="stat-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg></span><span class="stat-label">BEV</span><span class="stat-value">&mdash;</span></div>
+              <div class="stat-line ice"><span class="stat-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg></span><span class="stat-label">Pure ICE</span><span class="stat-value">&mdash;</span></div>
+            </div>
+            <div class="stat-box stat-box-fleet">
+              <h4>Total fleet in 2025</h4>
+              <div class="stat-line bev"><span class="stat-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg></span><span class="stat-label">BEV</span><span class="stat-value">&mdash;</span></div>
+              <div class="stat-line ice"><span class="stat-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg></span><span class="stat-label">Cars</span><span class="stat-value">&mdash;</span></div>
+            </div>
+          </div>
+
+          <div class="right-top" style="margin-top:10px;">
+            <div class="flourish-chart-wrap">
+              <div id="chart-bev-registrations" class="flourish-live-chart"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="historical-col">
+          <div class="historical-grid">
+            <div class="right-top">
+              <div class="flourish-chart-wrap">
+                <div id="chart-fuel-share" class="flourish-live-chart"></div>
+              </div>
+            </div>
+            <div class="right-bottom">
+              <div class="flourish-chart-wrap">
+                <div id="chart-fuel-type" class="flourish-live-chart"></div>
+              </div>
+            </div>
+            <div class="right-top">
+              <div class="flourish-chart-wrap">
+                <div id="chart-absolute-registrations" class="flourish-live-chart"></div>
+              </div>
+            </div>
+            <div class="right-bottom">
+              <div class="flourish-chart-wrap">
+                <div id="chart-plugin-share" class="flourish-live-chart"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-top" style="margin-top: 20px;">
+        <div class="quarterly-toggle-row" role="tablist" aria-label="Quarterly chart view">
+          <button type="button" class="quarterly-toggle-btn active" data-view="volume">Volumes</button>
+          <button type="button" class="quarterly-toggle-btn" data-view="share">Market share</button>
+        </div>
+        <div class="flourish-chart-wrap" data-view="volume">
+          <div id="chart-quarterly-powertrain" class="flourish-live-chart"></div>
+        </div>
+        <div class="flourish-chart-wrap" data-view="share" hidden>
+          <div id="chart-quarterly-powertrain-share" class="flourish-live-chart"></div>
+        </div>
+      </div>
+
+      <p class="footnote">Data sources: Quarterly registration data from ACEA (2026). Fleet data from EAFO (2025). Pure ICE (Internal Combustion Engine): Petrol + Diesel. PHEV: Plug-in-hybrid electric vehicle. HEV: Hybrid electric vehicle. Partial years, i.e. 2026, are intended as Year-to-latest-quarter.</p>
+
+      <div class="logo-row">
+        <img class="te-logo" src="https://images.jifo.co/17001966_1715009749076.png" alt="T&amp;E">
+      </div>
+
+    </section>
+
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <script src="https://cdn.flourish.rocks/flourish-live-v5.min.js"></script>
+
+    <script src="app.js?v=12"></script>
+
+  </div>
+</body>
+
+</html>
