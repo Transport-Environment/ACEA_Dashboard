@@ -3,6 +3,7 @@
 :root {
   --brand-charcoal: #1c1c1c;
   --brand-light-orange: #fbf5f0;
+  --brand-pink: #c2447a;
 
   --surface-1: var(--brand-light-orange);
   --surface-chart: #f2ebe5;
@@ -31,6 +32,15 @@ background-color: var();
 overflow-x: hidden;
 margin-tip: 10px;
 margin-top: 2%;
+}
+
+.eyebrow-tick {
+    display: block;
+    width: 40px;
+    height: 6px;
+    background-color: var(--brand-pink);
+    border-radius: 3px;
+    margin: 16px 0 16px 2%;
 }
 
 .landing-grid {
