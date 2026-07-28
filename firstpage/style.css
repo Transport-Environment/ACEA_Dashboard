@@ -123,4 +123,9 @@ margin-top: 2%;
     .landing-map {
         min-height: 320px;
     }
+    .landing-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+
+}
 }
